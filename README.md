@@ -1,7 +1,7 @@
 # 
 <html>
 	<head>
-		<h1></h1>> Bordeaux Institute of International Cybersecurity Studies (BIICS) <h2></h2>>
+		<title>Bordeaux Institute of International Cybersecurity Studies </title>
 	</head>
 		<h2> Cybersecurity Unlocked </h2>
 			<body>
