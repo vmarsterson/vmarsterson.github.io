@@ -7,6 +7,6 @@ body {
   color: #213E7A;
   font-family: sans-serif;
 }
-body p:firstline {
+body p:first-line{
 	color: green;
 }
