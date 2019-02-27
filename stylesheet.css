@@ -1,8 +1,10 @@
-body {
-  background-color: #16BCFA;
-  color: #213E7A;
-}
 h1 {
   background-color: #213E7A;
   color: #FE8548;
 }
+body {
+  background-color: #16BCFA;
+  color: #213E7A;
+  font-family: sans-serif;
+}
+body p:firstline {colour: green;}
