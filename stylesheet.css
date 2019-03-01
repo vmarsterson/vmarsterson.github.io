@@ -21,7 +21,7 @@ body {
   font-family: Aileron
   ;
 
-div {
+.titles {
 	width: :; 100%;
 	height: 500px;
 	bakcground-image: linear-gradient (to right, #16BCFA, #213E7A);
