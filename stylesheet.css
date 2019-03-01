@@ -5,14 +5,18 @@
     font-family: 'Aileron';
     src: url('https://www.fontsc.com/font/download/aileron');
 }
+<!-- 213E7A = Dark blue
+  -- FE8548 = Orange
+  -- 16BCFA = Turquoise
+  -- ffffff  = White >
 
 h1 {
-  background-color: #213E7A;
+  background-color: white;
   color: #FE8548;
   font-family: AcariSans
 }
 body {
-  background-color: #16BCFA;
+  background-color: white;
   color: #213E7A;
   font-family: Aileron
   ;
