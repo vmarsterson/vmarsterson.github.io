@@ -12,20 +12,33 @@
  /* Text formatting */
 
 h1 {
+
+}
+
+.titles {
+  background-color: #213E7A;
+  color: white;
+  font-family: Aileron
+  padding-right: 60px;
+  padding-left: 60px;
+  text-align: center
+}
+
+.subtitle {
   background-color: #16BCFA;
   color: White;
   font-family: AcariSans
+  text-align: center
 }
 
-body {
-  background-color: #16BCFA;
+.text {
+  background-color: white;
   color: #213E7A;
   font-family: Aileron;
-  width: :; 100%;
-  height: 500px;
-  background-image: linear-gradient (to right, #16BCFA, #213E7A);
- }
-
+  padding-right: 60px;
+  padding-left: 60px;
+  text-align: center
+}
 
 /* Navbar format*/
 .navbar {
@@ -36,7 +49,7 @@ body {
 
 /* Links inside the navbar */
 .navbar a {
-  float: left;
+  float: right;
   font-size: 16px;
   color: #FE8548;
   text-align: center;
