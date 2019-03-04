@@ -21,14 +21,16 @@ h1 {
   font-family: Aileron
   padding-right: 60px;
   padding-left: 60px;
-  text-align: center
+  text-align: center;
 }
 
 .subtitle {
   background-color: #16BCFA;
   color: White;
-  font-family: AcariSans
-  text-align: center
+  font-family: AcariSans;
+  text-align: center;
+  padding-left: 60px;
+  padding-right: 60px;
 }
 
 .text {
