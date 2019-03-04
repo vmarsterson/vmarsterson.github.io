@@ -18,10 +18,12 @@ h1 {
 .titles {
   background-color: #213E7A;
   color: white;
-  font-family: Aileron
+  font-family: Aileron light;
   padding-right: 60px;
   padding-left: 60px;
   text-align: center;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 
 .subtitle {
@@ -31,6 +33,8 @@ h1 {
   text-align: center;
   padding-left: 60px;
   padding-right: 60px;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 
 .text {
@@ -39,7 +43,9 @@ h1 {
   font-family: Aileron;
   padding-right: 60px;
   padding-left: 60px;
-  text-align: center
+  text-align: center;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 
 /* Navbar format*/
@@ -76,7 +82,7 @@ h1 {
 
 /* The dropdown container */
 .dropdown {
-  float: left;
+  float: right;
   overflow: hidden;
 }
 
