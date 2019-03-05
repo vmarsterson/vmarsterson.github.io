@@ -1,35 +1,74 @@
 
   @font-face {
-    font-family: 'AcariSans';
-    src: url('https://dl.1001fonts.com/acari-sans.zip');
-    font-family: 'Aileron';
-    src: url('https://www.fontsc.com/font/download/aileron');
+    font-family: "AcariSans";
+    src: url("https://dl.1001fonts.com/acari-sans.zip");
+    font-family: "Aileron";
+    src: url("https://www.fontsc.com/font/download/aileron");
 }
 /* 213E7A = Dark blue
    FE8548 = Orange
-   16BCFA = Turquoise */
+   16BCFA = Turquoise 
+   56175F = Purple */
 
  /* Text formatting */
 
-h1 {
-
+.logobanner {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #213E7A;
+    width: 50%;
 }
 
-.titles {
+.date {
   background-color: #213E7A;
   color: white;
-  font-family: Aileron light;
-  padding-right: 60px;
-  padding-left: 60px;
+  font-family: Aileron;
+  font-size: 1em;
   text-align: center;
+}
+
+.button {
+  background-color: #16BCFA;
+  border: black;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1em;
+  float: center;
+}
+
+h1 {
+  background-color: #16BCFA;
+  color: white;
+  font-family: AcariSans;
+  font-size: 2em;
+  text-align: center;
+  padding-left: 60px;
+  padding-right: 60px;
   padding-top: 0px;
   padding-bottom: 0px;
 }
 
-.subtitle {
-  background-color: #16BCFA;
-  color: White;
+h2 {
+  background-color: #FE8548;
+  color: white;
   font-family: AcariSans;
+  font-size: 2em;
+  text-align: center;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 0px;
+  padding-bottom: 0px; 
+}
+
+h3 {
+  background-color: #56175F;
+  color: white;
+  font-family: AcariSans;
+  font-size: 2em;
   text-align: center;
   padding-left: 60px;
   padding-right: 60px;
@@ -41,6 +80,7 @@ h1 {
   background-color: white;
   color: #213E7A;
   font-family: Aileron;
+  font-size: 1em;
   padding-right: 60px;
   padding-left: 60px;
   text-align: center;
@@ -48,21 +88,48 @@ h1 {
   padding-bottom: 0px;
 }
 
+/* Navbar */
+.navbar {
+  overflow: hidden;
+  background-color: #213E7A;
+  font-family: Aileron;
+  position: fixed;
+  width: 100%;
+  height: 60px;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: center;
+  font-size: 1em;
+  font-family: Aileron;
+  color: white;
+  text-align: center;
+  padding: 16px 16px;
+  text-decoration: none;
+}
+
+/* Colour of hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+  opacity: 0.7;
+}
 
 /* Icons */
 
 .icons {
   font-family: Aileron;
+  font-size: 1em;
   padding-right: 60px;
   padding-left: 60px;
   color: #213E7A;
+  height: 60px;
   text-align: : center;
+  float: right;
 }
-
 
 .fa {
   padding: 30px;
-  font-size: 300px;
+  font-size: 3em;
   width: 15px;
   height: 15px;
   text-align: center;
@@ -101,75 +168,26 @@ h1 {
  color: white;
 }
 
-
-/* Navbar */
-.navbar {
-  overflow: hidden;
+footer {
   background-color: #213E7A;
   font-family: Aileron;
+  position: bottom;
+  width: 100%;
+  height: 60px;
 }
 
 /* Links inside the navbar */
-.navbar a {
-  float: right;
-  font-size: 16px;
-  color: #FE8548;
+footer a {
+  float: left;
+  font-size: 1em;
+  font-family: Aileron;
+  color: white;
   text-align: center;
   padding: 16px 16px;
   text-decoration: none;
 }
 
 /* Colour of hover */
-.navbar a:hover, .dropdown:hover .dropbtn {
+footer a:hover, .dropdown:hover .dropbtn {
   opacity: 0.7;
 }
-
-/* Dropdown content (hidden by default) */
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-/* The dropdown container */
-.dropdown {
-  float: right;
-  overflow: hidden;
-}
-
-/* Conference dropdown button */
-.dropdown .dropbtn {
-  font-size: 16px; 
-  border: none;
-  outline: none;
-  color: #FE8548;
-  padding: 16px 16px;
-  background-color: inherit;
-  font-family: inherit;
-  margin: 0;
-}
-
-/* Links inside the dropdown */
-.dropdown-content a {
-  float: none;
-  color: #213E7A;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  text-align: left;
-}
-
-/* Add a grey background color to dropdown links on hover */
-.dropdown-content a:hover {
-  background-color: #ddd;
-}
-
-/* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-
-
