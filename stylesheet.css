@@ -12,12 +12,16 @@
 
  /* Text formatting */
 
-.logobanner {
+ .background {
+    background-color: #213E7A;
+ }
+
+.centred {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    background-color: #213E7A;
     width: 50%;
+    padding-top: 50px;
 }
 
 .date {
@@ -29,19 +33,25 @@
 }
 
 .button {
-  background-color: #16BCFA;
-  border: black;
-  color: white;
-  padding: 15px 32px;
+  background-color: #213E7A;
+  box-shadow: 15%;
+  color: #213E7A;
+  border-radius: 8px;
+  border: 2px solid #16BCFA;
+  padding-bottom: 15px;
+  padding-top: 15px;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
-  font-size: 1em;
-  float: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  font-size: 2em;
+  font-family: Aileron;
 }
 
-h1 {
-  background-color: #16BCFA;
+/* Dark Blue */
+h1 {  background-color: #213E7A;
   color: white;
   font-family: AcariSans;
   font-size: 2em;
@@ -52,8 +62,22 @@ h1 {
   padding-bottom: 0px;
 }
 
+/* White */
 h2 {
-  background-color: #FE8548;
+  background-color: white;
+  color: #213E7A;
+  font-family: AcariSans;
+  font-size: 2em;
+  text-align: center;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+/* Turquoise */
+h3 {
+  background-color: #16BCFA;
   color: white;
   font-family: AcariSans;
   font-size: 2em;
@@ -64,7 +88,21 @@ h2 {
   padding-bottom: 0px; 
 }
 
-h3 {
+/* Orange */
+h4 {
+  background-color: #FE8548;
+  color: white;
+  font-family: AcariSans;
+  font-size: 2em;
+  text-align: center;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+/* Purple */
+h5 {
   background-color: #56175F;
   color: white;
   font-family: AcariSans;
@@ -76,7 +114,7 @@ h3 {
   padding-bottom: 0px;
 }
 
-.text {
+.intro {
   background-color: white;
   color: #213E7A;
   font-family: Aileron;
@@ -88,6 +126,11 @@ h3 {
   padding-bottom: 0px;
 }
 
+.purple {
+  background-color: #56175F;
+  opacity: 0.7;
+}
+
 /* Navbar */
 .navbar {
   overflow: hidden;
@@ -95,7 +138,7 @@ h3 {
   font-family: Aileron;
   position: fixed;
   width: 100%;
-  height: 60px;
+  height: 50px;
 }
 
 /* Links inside the navbar */
