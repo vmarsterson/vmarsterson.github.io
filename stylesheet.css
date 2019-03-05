@@ -29,6 +29,79 @@
   width: device-width ;
 }
 
+/* CSS for screens that are 320 pixels or less will be put in this section */
+@media screen and (max-width:320px) {
+  
+}
+
+/* for screens that are at least 320 pixels wide but less than or equal to 640 pixels wide */
+@media screen and (min-width:320px) and (max-width:640px) {
+  
+}
+
+/* PORTRAIT */
+
+/* iPhone 3-5 and SE */
+@media screen and (width: 320px) {
+  
+}/* iPhone 6, 6s, 7, 8 and X portrait */
+@media screen and (width: 375px) {
+  
+}
+
+/* iPhone 6 Plus, 6s Plus, 7 Plus and 8 Plus portrait */
+@media screen and (width: 414px) {
+  
+}
+
+/* Old android 240 */
+@media screen and (width: 384px) {
+  
+}
+
+/* Android Nexus portrait */
+@media screen and (width: 384px) {
+  
+}
+
+/* Landscape */
+
+/* iPhone 5 & SE */
+@media screen and (width: 568px) {
+  
+}
+
+/* iPhone 6, 7 and 8 landscape */
+@media screen and (width: 667px) {
+  
+}
+
+/* iPhone 6 Plus, 7 Plus and 8 Plus landscape) */
+@media screen and (width: 736px) {
+  
+}
+
+/* iPhone X */
+@media screen and (width: 812px) {
+  
+}
+
+/* Android Nexus landscape, Kindle portrait */
+@media screen and (width: 600px) {
+  
+}
+
+
+/* iPad, Portrait -> Landscape */
+@media screen and (width: 768px) {
+  
+}
+
+@media screen and (width: 1024px) {
+  
+}
+
+
 
 h1 {
 
@@ -67,7 +140,61 @@ h1 {
   padding-bottom: 0px;
 }
 
-/* Navbar format*/
+
+/* Icons */
+
+.icons {
+  font-family: Aileron;
+  padding-right: 60px;
+  padding-left: 60px;
+  color: #213E7A;
+  text-align: : center;
+}
+
+
+.fa {
+  padding: 30px;
+  font-size: 300px;
+  width: 15px;
+  height: 15px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 25%;
+  align-content: center;
+}
+
+/* Hover */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+/* LinkedIn */
+.fa-linkedin {
+  background: #0077B5 ;
+  color: white;
+}
+
+/* Instagram */
+.fa-instagram {
+ background: linear-gradient( #400080, transparent);
+ background: linear-gradient(200deg, #d047d1, #ff0000,    #ffff00);
+ color: white;
+}
+
+
+/* Navbar */
 .navbar {
   overflow: hidden;
   background-color: #213E7A;
@@ -86,7 +213,7 @@ h1 {
 
 /* Colour of hover */
 .navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: #16BCFA;
+  opacity: 0.7;
 }
 
 /* Dropdown content (hidden by default) */
