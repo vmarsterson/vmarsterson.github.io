@@ -35,7 +35,7 @@
 .button {
   background-color: #213E7A;
   box-shadow: 15%;
-  color: #213E7A;
+  color: #FE8548;
   border-radius: 8px;
   border: 2px solid #16BCFA;
   padding-bottom: 15px;
@@ -45,9 +45,14 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 25%;
   font-size: 2em;
   font-family: Aileron;
+}
+
+.button:hover {
+  background-color: #213E7A;
+  color:#213E7A ;
 }
 
 /* Dark Blue */
