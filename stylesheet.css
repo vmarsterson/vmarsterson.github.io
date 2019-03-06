@@ -204,6 +204,20 @@ li {
   margin-bottom: 0px;
 }
 
+.column {
+column-count: 2;
+column-gap: 40px;
+column-rule-style: solid;
+column-rule-width: 1px;
+column-rule-color: #213E7A;
+column-rule: 3px solid #213E7A;
+column-span: all;
+column-width: 50%;
+border: 3px solid #213E7A;
+margin-left: 20px;
+margin-right: 20px;
+margin-bottom: 20px;
+}
 
 .map {
   margin-top: 0px;
