@@ -12,8 +12,9 @@
 
  /* Text formatting */
 
- .background {
+ .darkblue {
     background-color: #213E7A;
+    color: white;
  }
 
 .centred {
@@ -55,6 +56,13 @@
   color:#213E7A ;
 }
 
+p {
+  font-family: AcariSans;
+  font-size: 1em;
+  color:#213E7A;
+  margin-left: 10%;
+  margin-right: 10%;
+}
 /* Dark Blue */
 h1 {  background-color: #213E7A;
   color: white;
@@ -80,6 +88,14 @@ h2 {
   padding-bottom: 0px;
 }
 
+.white {
+  background-color: white;
+  color: #213E7A;
+  font-family: Aileron;
+  font-size: 1em;
+  text-align: center;
+}
+
 /* Turquoise */
 h3 {
   background-color: #16BCFA;
@@ -92,6 +108,8 @@ h3 {
   padding-top: 0px;
   padding-bottom: 0px; 
 }
+
+.bluesection {}
 
 /* Orange */
 h4 {
@@ -119,16 +137,22 @@ h5 {
   padding-bottom: 0px;
 }
 
-.intro {
-  background-color: white;
+h6 {
+  color: #16BCFA;
+  text-align: left;
+  font-family: AcariSans;
+  font-size: 1.5em;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+li {
   color: #213E7A;
-  font-family: Aileron;
-  font-size: 1em;
-  padding-right: 60px;
-  padding-left: 60px;
-  text-align: center;
-  padding-top: 0px;
-  padding-bottom: 0px;
+  font-family: AcariSans;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .purple {
