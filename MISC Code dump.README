@@ -400,3 +400,11 @@ function openCity(evt, cityName) {
 .navbar button.active {
   background-color: #ccc;
 }
+
+
+/* Instagram */
+.fa-instagram {
+ background: linear-gradient( #400080, transparent);
+ background: linear-gradient(200deg, #d047d1, #ff0000,    #ffff00);
+ color: white;
+}
