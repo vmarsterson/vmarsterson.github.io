@@ -8,7 +8,9 @@
 /* 213E7A = Dark blue
    FE8548 = Orange - #ffddcc 90% 
    16BCFA = Turquoise 
-   56175F = Purple */
+   56175F = Purple 
+
+   https://www.w3schools.com/colors/colors_picker.asp */
 
  /* Text formatting */
 
@@ -201,7 +203,7 @@ li {
 }
 
 /* Colour of hover */
-.navbar a:hover, .dropdown:hover .dropbtn {
+.navbar a:hover {
   color: #FE8548;
 }
 
