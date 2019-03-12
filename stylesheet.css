@@ -479,7 +479,7 @@ footer a:hover, .dropdown:hover .dropbtn {
   -moz-transform: rotateX(0deg) rotateY(-360deg);
 }
 .box1{
-  background-color: transparant;
+  background-color: blue;
   width: 300px;
   height: 300px;
   margin: 0 auto;
@@ -489,7 +489,7 @@ footer a:hover, .dropdown:hover .dropbtn {
   -webkit-border-radius: 10px;
 }
 .box2{
-  background-color: transparant;
+  background-color: blue;
   width: 300px;
   height: 300px;
   margin: 0 auto;
