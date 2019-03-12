@@ -170,8 +170,8 @@ h5 {
 }
 
 .purple {
-  background-color: #f1d6f5;
-  color: white;
+  background-color: white;
+  color: #56175F;
   margin-top: 0px;
   margin-bottom: 0px;
 }
@@ -206,7 +206,7 @@ li {
 
 .column {
 column-count: 2;
-column-gap: 40px;
+column-gap: 50px;
 column-rule-style: solid;
 column-rule-width: 1px;
 column-rule-color: #213E7A;
@@ -217,6 +217,8 @@ border: 3px solid #213E7A;
 margin-left: 20px;
 margin-right: 20px;
 margin-bottom: 20px;
+box-shadow: 5px 10px #213E7A;
+perspective: 1000px;
 }
 
 .map {
@@ -328,4 +330,167 @@ footer a {
 /* Colour of hover */
 footer a:hover, .dropdown:hover .dropbtn {
   opacity: 0.7;
+}
+
+/* Flip box */
+
+.flip-box {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px;
+}
+
+/* This container is needed to position the front and back side */
+.flip-box-inner {
+  position: center;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-box:hover .flip-box-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-box-front, .flip-box-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+/* Style the front side */
+.flip-box-front {
+  background-color: #bbb;
+  color: black;
+}
+
+/* Style the back side */
+.flip-box-back {
+  background-color: dodgerblue;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+.flip-box:hover .flip-box-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-box-back {
+  transform: rotateY(180deg);
+}
+
+
+/* Column Grids */
+
+.col_half { width: 49%; }
+.col_third { width: 32%; }
+.col_fourth { width: 23.5%; }
+.col_fifth { width: 18.4%; }
+.col_sixth { width: 15%; }
+.col_three_fourth { width: 74.5%;}
+.col_twothird{ width: 66%;}
+.col_half,
+.col_third,
+.col_twothird,
+.col_fourth,
+.col_three_fourth,
+.col_fifth{
+  position: relative;
+  display:inline;
+  display: inline-block;
+  float: left;
+  margin-right: 2%;
+  margin-bottom: 20px;
+}
+.end { margin-right: 0; }
+
+/* Flip Panel */
+
+.wrapper{ width: 100%; margin: 50 auto;  background-color: #bdd3de; hoverflow: hidden;}
+
+.panel {
+  margin: 0 auto;
+  height: 130px;  
+  position: relative;
+  -webkit-perspective: 600px;
+  -moz-perspective: 600px;
+}
+
+.panel .front,
+.panel .back {
+  text-align: center;
+}
+  
+.panel .front {
+  height: inherit;
+  position: absolute;
+  top: 0;
+  z-index: 900;
+  text-align: center;
+  -webkit-transform: rotateX(180deg) rotateY(0deg);
+     -moz-transform: rotateX(180deg) rotateY(0deg);
+  -webkit-transform-style: preserve-3d;
+     -moz-transform-style: preserve-3d;
+  -webkit-backface-visibility: hidden;
+     -moz-backface-visibility: hidden;
+  -webkit-transition: all .4s ease-in-out;
+     -moz-transition: all .4s ease-in-out;
+    -ms-transition: all .4s ease-in-out;
+     -o-transition: all .4s ease-in-out;
+      transition: all .4s ease-in-out;
+}
+
+.panel .back {
+  height: inherit;
+  position: absolute;
+  top: 0;
+  z-index: 1000;
+  -webkit-transform: rotateY(0deg);
+     -moz-transform: rotateY(0deg);
+  -webkit-transform-style: preserve-3d;
+     -moz-transform-style: preserve-3d;
+  -webkit-backface-visibility: hidden;
+     -moz-backface-visibility: hidden;
+  -webkit-transition: all .4s ease-in-out;
+     -moz-transition: all .4s ease-in-out;
+    -ms-transition: all .4s ease-in-out;
+     -o-transition: all .4s ease-in-out;
+      transition: all .4s ease-in-out;
+}
+.panel.flip .front {
+  z-index: 900;
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+}
+.panel.flip .back {
+  z-index: 1000;
+  -webkit-transform: rotateX(0deg) rotateY(0deg);
+  -moz-transform: rotateX(0deg) rotateY(0deg);
+}
+.box1{
+  background-color: #14bcc8;
+  width: 250px;
+  height: 150px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+}
+.box2{
+  background-color: #ff7e70;
+  width: 250px;
+  height: 150px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
 }
