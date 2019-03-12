@@ -1,7 +1,7 @@
 
   @font-face {
     font-family: "AcariSans";
-    src: url("https://dl.1001fonts.com/acari-sans.zip"),Arial;
+    src: url("https://dl.1001fonts.com/acari-sans.zip"), Arial Narrow, Arial;
     font-family: "Aileron";
     src: url("https://www.fontsc.com/font/download/aileron"), Segoe UI, Arial Narrow, Arial, Sans-Serif;
 }
@@ -387,6 +387,7 @@ footer a:hover, .dropdown:hover .dropbtn {
   transform: rotateY(180deg);
 }
 
+/* Flipbox 2 */
 
 /* Column Grids */
 
@@ -420,8 +421,8 @@ footer a:hover, .dropdown:hover .dropbtn {
   margin: 0 auto;
   height: 130px;  
   position: relative;
-  -webkit-perspective: 600px;
-  -moz-perspective: 600px;
+  -webkit-perspective: 300px;
+  -moz-perspective: 300px;
 }
 
 .panel .front,
@@ -441,11 +442,13 @@ footer a:hover, .dropdown:hover .dropbtn {
      -moz-transform-style: preserve-3d;
   -webkit-backface-visibility: hidden;
      -moz-backface-visibility: hidden;
-  -webkit-transition: all .4s ease-in-out;
-     -moz-transition: all .4s ease-in-out;
-    -ms-transition: all .4s ease-in-out;
-     -o-transition: all .4s ease-in-out;
-      transition: all .4s ease-in-out;
+  -webkit-transition: all 0.8s ease-in-out;
+     -moz-transition: all 0.8s ease-in-out;
+    -ms-transition: all 0.8s ease-in-out;
+     -o-transition: all 0.8s ease-in-out;
+      transition: all 0.8s ease-in-out;
+    transform-style: preserve-3d;
+    backface-visibility: hidden;
 }
 
 .panel .back {
@@ -453,18 +456,19 @@ footer a:hover, .dropdown:hover .dropbtn {
   position: absolute;
   top: 0;
   z-index: 1000;
-  -webkit-transform: rotateY(0deg);
-     -moz-transform: rotateY(0deg);
+  -webkit-transform: rotateY(180deg);
+     -moz-transform: rotateY(180deg);
   -webkit-transform-style: preserve-3d;
      -moz-transform-style: preserve-3d;
   -webkit-backface-visibility: hidden;
      -moz-backface-visibility: hidden;
-  -webkit-transition: all .4s ease-in-out;
-     -moz-transition: all .4s ease-in-out;
-    -ms-transition: all .4s ease-in-out;
-     -o-transition: all .4s ease-in-out;
-      transition: all .4s ease-in-out;
+  -webkit-transition: all 0.8s ease-in-out;
+     -moz-transition: all 0.8s ease-in-out;
+    -ms-transition: all 0.8s ease-in-out;
+     -o-transition: all 0.8s ease-in-out;
+      transition: all 0.8s ease-in-out;
 }
+
 .panel.flip .front {
   z-index: 900;
   -webkit-transform: rotateY(180deg);
@@ -472,13 +476,13 @@ footer a:hover, .dropdown:hover .dropbtn {
 }
 .panel.flip .back {
   z-index: 1000;
-  -webkit-transform: rotateX(0deg) rotateY(0deg);
-  -moz-transform: rotateX(0deg) rotateY(0deg);
+  -webkit-transform: rotateX(0deg) rotateY(-360deg);
+  -moz-transform: rotateX(0deg) rotateY(-360deg);
 }
 .box1{
-  background-color: #14bcc8;
-  width: 250px;
-  height: 150px;
+  background-color: transparant;
+  width: 300px;
+  height: 300px;
   margin: 0 auto;
   padding: 20px;
   border-radius: 10px;
@@ -486,9 +490,9 @@ footer a:hover, .dropdown:hover .dropbtn {
   -webkit-border-radius: 10px;
 }
 .box2{
-  background-color: #ff7e70;
-  width: 250px;
-  height: 150px;
+  background-color: transparant;
+  width: 300px;
+  height: 300px;
   margin: 0 auto;
   padding: 20px;
   border-radius: 10px;
