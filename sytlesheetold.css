@@ -1,3 +1,4 @@
+sytlesheetold.css
 
   @font-face {
     font-family: "AcariSans";
@@ -50,47 +51,137 @@
   color:#213E7A ;
 }
 
-.box {
+p {
+  font-family: Aileron, Arial, Sans-Serif;
+  font-size: 1em;
+  color:#213E7A;
   margin-left: 10%;
   margin-right: 10%;
   margin-top: 0px;
-  margin-bottom: 0px;}  
-}
-
-p {
-  font-family: Aileron, Arial, Sans-Serif;
-  font size: 1em;
+  margin-bottom: 0px;
   line-height: auto;
-  width: 80%;
-  padding-right: 10%;
-  padding-left: 10%;
 }
-
-p {
-  display: block;
-  font-family: Aileron, Segoe UI, Arial, Sans-Serif;
-  font-size: 1em;
-  line-height: auto;
-  width: 80%;
-  padding-left: 10%;
-  padding-right: 10%;
-}
-
-
-h1, h3{  
+/* Dark Blue */
+h1 {  background-color: #213E7A;
+  color: white;
   font-family: Aileron, Segoe UI, Arial, Sans-Serif;
   font-weight: 20;
   font-size: 2em;
   text-align: center;
-  padding-left: 20%;
-  padding-right: 20%;
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 0px;
+  padding-bottom: 0px;
   margin-top: 0px;
   margin-bottom: 0px;
 }
 
+ .darkblue {
+    background-color: #213E7A;
+    color: white;
+  margin-top: 0px;
+  margin-bottom: 0px;
+ }
+
+/* White */
 h2 {
+  background-color: white;
+  color: #213E7A;
+  font-family: Aileron, Segoe UI, Arial Narrow, Arial, Sans-Serif;
+  font-size: 2em;
+  font-weight: 20;
+  text-align: center;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 30px;
+  padding-bottom: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.white {
+  background-color: white;
+  color: #213E7A;
+  font-family: Aileron, Segoe UI, Arial, Sans-Serif;
+  font-size: 1em;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+/* Turquoise */
+h3 {
+  background-color: #16BCFA;
+  color: white;
+  font-family: Aileron, Segoe UI, Arial Narrow, Arial, Sans-Serif;
+  font-size: 2em;
+  font-weight: 20;
+  text-align: center;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.turquoise {
+  background-color: #16BCFA;
+  color: white;
+  padding-bottom: 50px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+/* Orange */
+h4 {
+  background-color: #FE8548;
+  color: white;
+  font-family: Aileron, Segoe UI, Arial, Sans-Serif;
+  font-size: 2em;
+  font-weight: 20;
+  text-align: center;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.orange {
+  background-color: #ffddcc;
+  color: #213E7A;
+  margin-top: -75px;
+  margin-bottom: 30px;
+}
+
+/* Purple */
+h5 {
+  background-color: #56175F;
+  color: white;
+  font-family: Aileron, Segoe UI, Arial Narrow, Arial, Sans-Serif;
+  font-size: 2em;
+  font-weight: 20;
+  text-align: center;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.purple {
+  background-color: white;
+  color: #56175F;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+/* Subtitles */
+
+h6 {
+  color: white;
   text-align: left;
   font-family: Aileron, Segoe UI, Arial, Sans-Serif;
   font-size: 1.5em;
@@ -100,40 +191,6 @@ h2 {
   padding-top: 20px;
   margin-top: 0px;
   margin-bottom: 0px;
-}
-
-.paddingless {
-  padding-top: 0px;
-  padding-bottom: 0px;
-}
-
-.padded {
-  padding-bottom: 20px
-}
-
-.white{
-  background-color: white;
-  color: #213E7A;
-}
-
-.blue {
- background-color: #213E7A;
- color: white;
-}
-
-.turquoise {
-  background-color: #16BCFA;
-  color: white;
-}
-
-.orange {
-  background-color: #FE8548;
-  color: white;
-}
-
-.purple {
-  background-color: #56175F;
-  color: white;
 }
 
 /* Lists */ 
