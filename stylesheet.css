@@ -1,9 +1,9 @@
 
   @font-face {
     font-family: "AcariSans";
-    src: url("https://dl.1001fonts.com/acari-sans.zip");
+    src: url("https://dl.1001fonts.com/acari-sans.zip"),Arial;
     font-family: "Aileron";
-    src: url("https://www.fontsc.com/font/download/aileron");
+    src: url("https://www.fontsc.com/font/download/aileron"), Segoe UI, Arial Narrow, Arial, Sans-Serif;
 }
 
 /* 213E7A = Dark blue
