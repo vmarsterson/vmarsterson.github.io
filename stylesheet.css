@@ -51,7 +51,7 @@
 }
 
 p {
-  font-family: Aileron, Arial Narrow, Arial, Sans-Serif;
+  font-family: Aileron, Arial, Sans-Serif;
   font-size: 1em;
   color:#213E7A;
   margin-left: 10%;
@@ -63,7 +63,7 @@ p {
 /* Dark Blue */
 h1 {  background-color: #213E7A;
   color: white;
-  font-family: Aileron, Segoe UI, Arial Narrow, Arial, Sans-Serif;
+  font-family: Aileron, Segoe UI, Arial, Sans-Serif;
   font-weight: 20;
   font-size: 2em;
   text-align: center;
@@ -101,7 +101,7 @@ h2 {
 .white {
   background-color: white;
   color: #213E7A;
-  font-family: Aileron, Segoe UI, Arial Narrow, Arial, Sans-Serif;
+  font-family: Aileron, Segoe UI, Arial, Sans-Serif;
   font-size: 1em;
   text-align: center;
   margin-bottom: 0px;
@@ -135,7 +135,7 @@ h3 {
 h4 {
   background-color: #FE8548;
   color: white;
-  font-family: Aileron, Segoe UI, Arial Narrow, Arial, Sans-Serif;
+  font-family: Aileron, Segoe UI, Arial, Sans-Serif;
   font-size: 2em;
   font-weight: 20;
   text-align: center;
@@ -182,7 +182,7 @@ h5 {
 h6 {
   color: white;
   text-align: left;
-  font-family: Aileron, Segoe UI, Arial Narrow, Arial, Sans-Serif;
+  font-family: Aileron, Segoe UI, Arial, Sans-Serif;
   font-size: 1.5em;
   font-weight: 20;
   margin-left: 5%;
@@ -196,7 +196,7 @@ h6 {
 
 li {
   color: #213E7A;
-  font-family: Aileron, Segoe UI, Arial Narrow, Arial, Sans-Serif;
+  font-family: Aileron, Segoe UI, Arial, Sans-Serif;
   margin-left: 10%;
   margin-right: 10%;
   padding-top: 10px;
@@ -232,7 +232,7 @@ perspective: 1000px;
 .navbar {
   overflow: hidden;
   background-color: #213E7A;
-  font-family: Aileron, Segoe UI, Arial Narrow, Arial, Sans-Serif;
+  font-family: Aileron, Segoe UI, Arial, Sans-Serif;
   position: fixed;
   width: 100%;
   display: block;
@@ -245,7 +245,7 @@ perspective: 1000px;
 .navbar a {
   float: center;
   font-size: 1em;
-  font-family: Aileron, Segoe UI, Arial Narrow, Arial, Sans-Serif;
+  font-family: Aileron, Segoe UI, Arial, Sans-Serif;
   font-weight: 40;
   color: white;
   text-align: center;
@@ -309,7 +309,7 @@ img {
 
 footer {
   background-color: #213E7A;
-  font-family: Aileron, Segoe UI, Arial Narrow, Arial, Sans-Serif;
+  font-family: Aileron, Segoe UI, Arial, Sans-Serif;
   position: bottom;
   width: 100%;
   height: 60px;
@@ -320,7 +320,7 @@ footer {
 footer a {
   float: left;
   font-size: 1em;
-  font-family: Aileron, Segoe UI, Arial Narrow, Arial, Sans-Serif;
+  font-family: Aileron, Segoe UI, Arial, Sans-Serif;
   color: white;
   text-align: center;
   padding: 16px 16px;
