@@ -135,7 +135,7 @@ h2 {
 /* Lists */ 
 
 li {
-  color: #213E7A;
+  color: white;
   font-family: Aileron, Segoe UI, Arial, Sans-Serif;
   margin-left: 10%;
   margin-right: 10%;
@@ -147,18 +147,16 @@ li {
 
 .column {
 column-count: 2;
-column-gap: 50px;
+column-gap: 20px;
 column-rule-style: solid;
 column-rule-width: 1px;
-column-rule-color: #213E7A;
 column-rule: 3px solid #213E7A;
 column-span: all;
-column-width: 50%;
-border: 3px solid #213E7A;
-margin-left: 20px;
-margin-right: 20px;
+column-width: 30%;
+border: 3px outset #213E7A;
+margin-left: 70px;
+margin-right: 70px;
 margin-bottom: 20px;
-box-shadow: 5px 10px #213E7A;
 perspective: 1000px;
 }
 
@@ -167,6 +165,29 @@ perspective: 1000px;
   margin-bottom: 0px;
 }
 
+.box1 {
+  width: 100px;
+  float: left;
+  height: 300px;
+  padding: 30px;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.box2 {
+  width: 100px;
+  float: right;
+  height: 300px;
+  padding: 30px;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
 
 /* Navbar */
 .navbar {
