@@ -57,27 +57,23 @@
   margin-bottom: 0px;}  
 }
 
-.right {
-  text-align: right;
-}
-
 
 p {
-  font-size: 2em;
+  font-size: 1em;
   font-family: Aileron, Arial, Sans-Serif !important;
 }
 
 p {
   font-family: Aileron, Arial, Sans-Serif;
-  font-size: 2em;
+  font-size: 1em;
 }
 
-h1 {  
-  font-family: Aileron, Sans-Serif;
-  font-weight: 200;
-  font-size: 4em;
-  text-align: left;
-  padding-left: 10%;
+h1, h3{  
+  font-family: Aileron, Segoe UI, Arial, Sans-Serif;
+  font-weight: 20;
+  font-size: 2em;
+  text-align: center;
+  padding-left: 20%;
   padding-right: 20%;
   padding-top: 60px;
   padding-bottom: 60px;
@@ -87,7 +83,7 @@ h1 {
 
 h2 {
   text-align: left;
-  font-family: Aileron, Segoe UI, , Sans-Serif;
+  font-family: Aileron, Segoe UI, Arial, Sans-Serif;
   font-size: 1.5em;
   font-weight: 20;
   margin-left: 5%;
@@ -97,19 +93,6 @@ h2 {
   margin-bottom: 0px;
 }
 
-h3 {
-  font-family: Aileron, Segoe UI, , Sans-Serif;
-  font-weight: 100;
-  font-size: 2em;
-  text-align: center;
-  padding-left: 20%;
-  padding-right: 20%;
-  padding-top: 60px;
-  padding-bottom: 60px;
-  margin-top: 0px;
-  margin-bottom: 0px;
-
-}
 .paddingless {
   padding-top: 0px;
   padding-bottom: 0px;
