@@ -1,9 +1,29 @@
 
   @font-face {
-    font-family: "AcariSans";
-    src: url("https://dl.1001fonts.com/acari-sans.zip");
-    font-family: "Aileron";
-    src: url("https://www.fontsc.com/font/download/aileron");
+    
+    font-family: "Aileronblack";
+    src: 
+    url("vmarsterson.github.io/Fonts/aileron-black-fontface.eot"), /* Internet Explorer*/
+    url("vmarsterson.github.io/Fonts/aileron-black-fontface.svg"), /* Chrome, iPhone */
+    url("vmarsterson.github.io/Fonts/aileron-black-fontface.ttf"), /* Safari, Firefox, Opera, Chrome */
+    url("vmarsterson.github.io/Fonts/aileron-black-fontface.woff"), /* Firefox 3.6 */
+    url("vmarsterson.github.io/Fonts/aileron-black-fontface.woff2");
+    
+    font-family: "Aileronbold";
+    src:
+    url("vmarsterson.github.io/Fonts/aileron-bold-fontface.eot"),
+    url("vmarsterson.github.io/Fonts/aileron-black-fontface.svg"),
+    url("vmarsterson.github.io/Fonts/aileron-bold-fontface.ttf"),
+    url("vmarsterson.github.io/Fonts/aileron-bold-fontface.woff"),
+    url("vmarsterson.github.io/Fonts/aileron-bold-fontface.woff2");
+    
+    font-family: "Aileronregular";
+    src:
+    url("vmarsterson.github.io/Fonts/aileron-regular-fontface.eot"),
+    url("vmarsterson.github.io/Fonts/aileron-regular-fontface.ttf"),
+    url("vmarsterson.github.io/Fonts/aileron-regular-fontface.svg"),
+    url("vmarsterson.github.io/Fonts/aileron-regular-fontface.woff"),
+    url("vmarsterson.github.io/Fonts/aileron-regular-fontface.woff2");
 }
 
 /* 213E7A = Dark blue
@@ -64,30 +84,31 @@
 
 p {
   font-size: 2em;
-  font-family: Aileron, Arial, Sans-Serif !important;
+  font-family: Aileronregular, Sans-Serif;
+  font-weight: 20;
 }
 
 p {
-  font-family: Aileron, Arial, Sans-Serif;
+  font-family: Aileronregular, Sans-Serif;
   font-size: 2em;
 }
 
 h1 {  
-  font-family: Aileron, Sans-Serif;
-  font-weight: 200;
+  font-family: Aileronblack, Sans-Serif;
+  font-weight: 1000;
   font-size: 4em;
   text-align: left;
   padding-left: 10%;
   padding-right: 20%;
   padding-top: 60px;
-  padding-bottom: 60px;
+  padding-bottom: 0px;
   margin-top: 0px;
   margin-bottom: 0px;
 }
 
 h2 {
   text-align: left;
-  font-family: Aileron, Segoe UI, , Sans-Serif;
+  font-family: Aileronblack, Sans-Serif;
   font-size: 1.5em;
   font-weight: 20;
   margin-left: 5%;
@@ -98,7 +119,7 @@ h2 {
 }
 
 h3 {
-  font-family: Aileron, Segoe UI, , Sans-Serif;
+  font-family: Aileronblack, Sans-Serif;
   font-weight: 100;
   font-size: 2em;
   text-align: center;
@@ -108,8 +129,21 @@ h3 {
   padding-bottom: 60px;
   margin-top: 0px;
   margin-bottom: 0px;
-
 }
+
+h4 {font-family: Aileronblack, Sans-Serif;
+  font-weight: 1000;
+  color: #c3d1ef;
+  font-size: 4em;
+  text-align: left;
+  padding-left: 10%;
+  padding-right: 20%;
+  padding-top: 0px;
+  padding-bottom: 60px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
 .paddingless {
   padding-top: 0px;
   padding-bottom: 0px;
@@ -153,28 +187,14 @@ h3 {
 
 li {
   color: white;
-  font-family: Aileron, Segoe UI, Arial, Sans-Serif;
+  font-family: Aileronregular, Sans-Serif;
+  font-size: 2em;
   margin-left: 10%;
   margin-right: 10%;
   padding-top: 10px;
   padding-bottom: 10px;
   margin-top: 0px;
   margin-bottom: 0px;
-}
-
-.column {
-column-count: 2;
-column-gap: 20px;
-column-rule-style: solid;
-column-rule-width: 1px;
-column-rule: 3px solid #213E7A;
-column-span: all;
-column-width: 30%;
-border: 3px outset #213E7A;
-margin-left: 70px;
-margin-right: 70px;
-margin-bottom: 20px;
-perspective: 1000px;
 }
 
 .map {
@@ -287,7 +307,7 @@ img {
 
 footer {
   background-color: #213E7A;
-  font-family: Aileron, Segoe UI, Arial, Sans-Serif;
+  font-family: Aileronregular, Sans-Serif;
   position: bottom;
   width: 100%;
   height: 60px;
@@ -298,7 +318,7 @@ footer {
 footer a {
   float: left;
   font-size: 1em;
-  font-family: Aileron, Segoe UI, Arial, Sans-Serif;
+  font-family: Aileronregular, Sans-Serif;
   color: white;
   text-align: center;
   padding: 16px 16px;
