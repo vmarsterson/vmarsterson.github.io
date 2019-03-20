@@ -70,27 +70,17 @@
   color:#213E7A ;
 }
 
-.box {
-  margin-left: 10%;
-  margin-right: 10%;
-  margin-top: 0px;
-  margin-bottom: 0px;}  
-}
-
 .right {
   text-align: right;
 }
-
 
 p {
   font-size: 2em;
   font-family: Aileronregular, Sans-Serif;
   font-weight: 20;
-}
-
-p {
-  font-family: Aileronregular, Sans-Serif;
-  font-size: 2em;
+  padding-left: 10%;
+  padding-right: 10%;
+  color: #213E7A;
 }
 
 h1 {  
@@ -98,6 +88,7 @@ h1 {
   font-weight: 1000;
   font-size: 4em;
   text-align: left;
+  font-weight: 1000;
   padding-left: 10%;
   padding-right: 20%;
   padding-top: 60px;
@@ -109,11 +100,12 @@ h1 {
 h2 {
   text-align: left;
   font-family: Aileronblack, Sans-Serif;
+  color: #213E7A;
   font-size: 1.5em;
-  font-weight: 20;
   margin-left: 5%;
+  font-weight: 10;
   margin-right: 5%;
-  padding-top: 20px;
+  padding-top: 10px;
   margin-top: 0px;
   margin-bottom: 0px;
 }
@@ -133,7 +125,7 @@ h3 {
 
 h4 {font-family: Aileronblack, Sans-Serif;
   font-weight: 1000;
-  color: #c3d1ef;
+  opacity: 0.7;
   font-size: 4em;
   text-align: left;
   padding-left: 10%;
@@ -163,9 +155,23 @@ h4 {font-family: Aileronblack, Sans-Serif;
  color: white;
 }
 
-.turquoise {
+.bluetext {
+  color: #213E7A;
+}
+
+.turquoisegrad {
   background-color: #16BCFA;
+  background-image: linear-gradient(to bottom, #16BCFA, white);
   color: white;
+}
+
+.orangegrad {
+  background-color: #FE8548;
+  background-image: linear-gradient(to bottom, #FE8548, white);
+  color: white;
+  width: 100%;
+  margin-top:0px;
+  margin-bottom: 0px;
 }
 
 .orange {
@@ -183,12 +189,49 @@ h4 {font-family: Aileronblack, Sans-Serif;
   height: 100%
   background-image: linear-gradient(to bottom, #56175F, #213E7A);
 }
+
+/* Table for programme */
+
+.grid {
+  border: 2px #213E7A solid;
+  width: 100%;
+  grid-template: repeat(10, 1fr)/ 2.5fr 0.5fr 1fr;
+  height: 500px;
+  display: grid;
+}
+
+.day {
+  grid-row: 1 / span 5;
+  grid-column: 3;
+  text-align: center;
+  font-size: 20em;
+  font-stretch: ultra-condensed;
+  font-family: Aileronblack, Sans-Serif;
+  font-weight: 10px;
+}
+
+.box {
+  color: #213E7A;
+  border-radius: 10px;
+  border: 2px #213E7A solid;
+}
+
+.times {
+  font-size: 1em;
+  float: right;
+  text-align: center;
+}
+
+.subtitle {
+  grid-column: 1 / span 2;
+}
 /* Lists */ 
 
 li {
-  color: white;
+  color: #213E7A;
   font-family: Aileronregular, Sans-Serif;
   font-size: 2em;
+  list-style-type: square;
   margin-left: 10%;
   margin-right: 10%;
   padding-top: 10px;
@@ -476,23 +519,33 @@ footer a:hover, .dropdown:hover .dropbtn {
   -webkit-transform: rotateX(0deg) rotateY(-360deg);
   -moz-transform: rotateX(0deg) rotateY(-360deg);
 }
-.box1{
-  background-color: blue;
-  width: 300px;
-  height: 300px;
-  margin: 0 auto;
-  padding: 20px;
-  border-radius: 10px;
-  -moz-border-radius: 10px;
-  -webkit-border-radius: 10px;
+
+
+.container{
+  max-width: 100%
+  padding: 10px;
 }
+
+.box1{
+  width: 50%;
+  height: 100px;
+  display: grid;
+  vertical-align: top;
+  float: left;
+}
+
 .box2{
-  background-color: blue;
-  width: 300px;
-  height: 300px;
-  margin: 0 auto;
-  padding: 20px;
-  border-radius: 10px;
-  -moz-border-radius: 10px;
-  -webkit-border-radius: 10px;
+  width: 20%;
+  height: 100px;
+  display: grid
+  vertical-align: top;
+  float: center;
+}
+
+.box3{
+  width: 30%;
+  height: 100px;
+  display: grid;
+  vertical-align: top;
+  float: right;
 }

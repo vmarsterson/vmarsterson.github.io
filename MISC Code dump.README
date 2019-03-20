@@ -488,3 +488,115 @@ function openCity(evt, cityName) {
 </script>
 
 </div>
+
+
+.box1{
+  background-color: blue;
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+}
+.box2{
+  background-color: blue;
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+}
+
+
+
+      <h2><b>MORNING PT.1. </b> ONLINE, CONNECTED AND SWITCHED ON: THE INTERNET AND ITS REGULATORY CHALLENGES </h2>
+          <p><small><b>Opening Conference:</b> The Internet and its regulatory challenges</small></p></div>
+          <p class="times"> 9h00 - 9h30 </p>
+          <p><small><b> Roundtable:</b> Internet Governance in the 21st century: the challenges and opportunities of regulating a cross-border platform. </small></p>
+          <p class="times"> 10h - 10h45</p>
+          <p><b><small> Q&A Session:</b> Privacy V Security </small></p>
+          <p class="times"> 11h15 - 12h00</p>
+
+        <h2><b> MORNING PT.2. </b>CYBERSECURITY IN THE WORKPLACE</h2>
+          <p><b>Roundtable:</b>The future of business: exploring new solutions for a secure workplace</p> 
+          <p class="times"> 12h15 - 13h00</p>
+
+        <h2><b>AFTERNOON </b>NEW POLITICAL CHALLENGES: INNOVATION AND TECHNOLOGY BEYOND THE INTERNET</h2>
+          <p><b><small> Opening Conference:</b> New political challenges: innovation and technology beyond the internet </small></p>
+          <p><b><small>Workshops:</small></b></p>
+          <p class="times"> 15h15 - 16h15</p>
+            <ul>
+              <li><small>IoT - connected cities - economics</small></li>
+
+              <li><small>Self-driving cars - liability - regulation</small></li>
+
+              <li><small>AI - Philosophy - what it is to be human - transhumanism - ethics</small></li>
+
+              <li><small>Tackling cybercrime : dark web, hacking - political</small></li>
+
+              <li><small>E-democracy</small></li>
+
+              <li><small>Coding - technical</small></li>
+
+              <li><small>Blockchain and bitcoin</small></li>
+            </ul>
+          <p><b>Closing conference: </b> Bring together all presenters for a summary of what was discussed (encouraging shared learning)</p>
+          
+        <h2>DAY 2</h2>
+
+          <p>
+            9h00-9h30 - Opening speech
+          <br><br>
+
+            <b>Digital Divides </b>
+            
+          <br><br>
+
+            9h30-10h30 Roundtable : digital divides and capacity building
+
+          <br><br>
+
+            <b><i> 10h30-11h COFFEE BREAK </i></b>
+
+          <br><br>
+
+            <b>Cybersecurity and Geopolitics </b>
+
+          <br><br>
+
+            11h00-12h00 Inaugural conference : How does technology affect international relations ? 
+
+          <br><br>
+
+            12h30 - 13h30 Workshops:
+            
+          </p>
+            <ul>
+
+              <li> Who own the Internet - How does state control of tech infrastructure shape international relations and conflicts? </li>
+
+              <li>Fake news and online propaganda</li>
+
+              <li>Tech war : Arms trade, cyberwarfare, cyberdefense</li>
+
+              <li>Environment - Are the environmental threats associated to technology (electricity and lithium) enough to unite countries in the fight against climate change?</li>
+
+            </ul>
+
+          <p> 
+            13h30-14h30  Summary of workshops
+          <br><br>
+            14h30 -15h00 - Keynote speech closing the conference
+          </p>
+      </div>
+
+        <div class="container">
+    <div class="box1"><h2><b>MORNING PT.1. </b> ONLINE, CONNECTED AND SWITCHED ON: THE INTERNET AND ITS REGULATORY CHALLENGES </h2>
+    <p><small><b>Opening Conference:</b> The Internet and its regulatory challenges</small></p></div>
+  <div class="box2"><p class="times"> 9h00 - 9h30 </p></div>
+  <div class="box3"> <p> 2</p></div>
+  </div>
