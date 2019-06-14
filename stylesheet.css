@@ -74,13 +74,29 @@
   text-align: right;
 }
 
+/* Text size */
 p {
-  font-size: 2em;
   font-family: Aileronregular, Sans-Serif;
   font-weight: 20;
   padding-left: 10%;
   padding-right: 10%;
-  color: #213E7A;
+}
+
+.large{
+  font-size: 2em;
+ }
+
+.medium{
+  font-size: 1.25em;
+}
+
+.small, .times {
+  font-size: 1em;
+}
+
+.tiny {
+  font-size: 0.5em;
+  text-align: center;
 }
 
 h1 {  
@@ -136,18 +152,21 @@ h4 {font-family: Aileronblack, Sans-Serif;
   margin-bottom: 0px;
 }
 
-.paddingless {
-  padding-top: 0px;
-  padding-bottom: 0px;
-}
-
-.padded {
-  padding-bottom: 20px
-}
+/* Colours */
 
 .white{
   background-color: white;
   color: #213E7A;
+}
+
+.orange {
+  background-color: #FE8548;
+  color: #56175F;
+}
+
+.purple {
+  background-color: #56175F;
+  color: white;
 }
 
 .blue {
@@ -159,43 +178,57 @@ h4 {font-family: Aileronblack, Sans-Serif;
   color: #213E7A;
 }
 
+.purpletext {
+  color:#56175F;
+}
+
+.whitetext {
+  color: #ffff;
+}
+
 .turquoisegrad {
   background-color: #16BCFA;
   background-image: linear-gradient(to bottom, #16BCFA, white);
-  color: white;
-}
-
-.orangegrad {
-  background-color: #FE8548;
-  background-image: linear-gradient(to bottom, #FE8548, white);
-  color: white;
   width: 100%;
   margin-top:0px;
   margin-bottom: 0px;
 }
 
-.orange {
+.orangegrad {
   background-color: #FE8548;
-  color: white;
-}
-
-.purple {
-  background-color: #56175F;
-  color: white;
-}
-
-.purpletext {
-  color:#56175F;
+  background-image: linear-gradient(to bottom, #FE8548, white);
+  width: 100%;
+  margin-top:0px;
+  margin-bottom: 0px;
 }
 
 .purplegrad {
   width: 100%
   height: 100%
   background-image: linear-gradient(to bottom, #56175F, #213E7A);
+  width: 100%;
+  margin-top:0px;
+  margin-bottom: 0px;
 }
 
-/* Table for programme */
+/* Padding */
+.paddingless {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
 
+.padded {
+  padding-bottom: 20px
+}
+
+/* Tables */
+
+.box {
+  color: #213E7A;
+  border-radius: 10px;
+}
+
+/* Agenda */
 .grid {
   border: 2px #213E7A solid;
   width: 100%;
@@ -214,20 +247,26 @@ h4 {font-family: Aileronblack, Sans-Serif;
   font-weight: 10px;
 }
 
-.box {
-  color: #213E7A;
-  border-radius: 10px;
-  border: 2px #213E7A solid;
-}
-
-.times {
-  font-size: 0.5em;
-  text-align: center;
-}
-
 .subtitle {
   grid-column: 1 / span 2;
 }
+
+/* Speakers */
+.grid2 {
+  border: 10px;
+  margin: 50px;
+  max-width: 100%;
+  grid-template: repeat(4, 1fr)/ repeat(4, 1fr 4fr);
+  height: 1000px;
+  display: grid;
+}
+
+.curved {
+    border-radius: 50%;
+    max-width: 120px;
+    max-height: 120px;
+}
+
 /* Lists */ 
 
 li {
