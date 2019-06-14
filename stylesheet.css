@@ -74,12 +74,15 @@
   text-align: right;
 }
 
+.left {
+  text-align: left;
+}
 /* Text size */
 p {
   font-family: Aileronregular, Sans-Serif;
   font-weight: 20;
-  padding-left: 10%;
-  padding-right: 10%;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 .large{
@@ -111,6 +114,7 @@ h1 {
   padding-bottom: 0px;
   margin-top: 0px;
   margin-bottom: 0px;
+  clear: both;
 }
 
 h2 {
@@ -152,6 +156,39 @@ h4 {font-family: Aileronblack, Sans-Serif;
   margin-bottom: 0px;
 }
 
+h5 {font-family: Aileronblack, Sans-Serif;
+  font-weight: 1000;
+  font-size: 3em;
+  text-align: center;
+  font-weight: 20;
+  padding-left: 10%;
+  padding-right: 20%;
+  padding-top: 60px;
+  padding-bottom: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+h6 {font-family: Aileronblack, Sans-Serif;
+  font-weight: 1000;
+  font-size: 1.5em;
+  text-align: right;
+  font-weight: 1000;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.right{
+  text-align: right;
+}
+
+.left{
+  text-align: left;
+}
 /* Colours */
 
 .white{
@@ -184,6 +221,10 @@ h4 {font-family: Aileronblack, Sans-Serif;
 
 .whitetext {
   color: #ffff;
+}
+
+.orangetext {
+  color: #FE8548;
 }
 
 .turquoisegrad {
@@ -229,6 +270,21 @@ h4 {font-family: Aileronblack, Sans-Serif;
 }
 
 /* Agenda */
+
+.main {
+  width: 94.75%;
+  margin: 0 auto;
+  height: 100%;
+  background-color: red;
+}
+
+.col {
+  width: 50%;
+  height: 500px;
+  float: left;
+}
+
+
 .grid {
   border: 2px #213E7A solid;
   width: 100%;
@@ -247,8 +303,21 @@ h4 {font-family: Aileronblack, Sans-Serif;
   font-weight: 10px;
 }
 
-.subtitle {
-  grid-column: 1 / span 2;
+.bubble {
+  width: 80%;
+  border: 1px solid #213E7A;
+  box-shadow: 7px 5px 5px #213E7A; 
+  padding: 10px;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.leftshade {
+  background-image: linear-gradient(to right, #b4eafd, white);
+}
+
+.rightshade {
+  background-image: linear-gradient(to left, #b4eafd, white);
 }
 
 /* Speakers */
@@ -269,46 +338,9 @@ h4 {font-family: Aileronblack, Sans-Serif;
 
 /* Lists */ 
 
-li {
-  color: #213E7A;
-  font-family: Aileronregular, Sans-Serif;
-  font-size: 2em;
-  list-style-type: square;
-  margin-left: 10%;
-  margin-right: 10%;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  margin-top: 0px;
-  margin-bottom: 0px;
-}
-
 .map {
   margin-top: 0px;
   margin-bottom: 0px;
-}
-
-.box1 {
-  width: 100px;
-  float: left;
-  height: 300px;
-  padding: 30px;
-  width: 30px;
-  height: 30px;
-  text-align: center;
-  text-decoration: none;
-  border-radius: 50%;
-}
-
-.box2 {
-  width: 100px;
-  float: right;
-  height: 300px;
-  padding: 30px;
-  width: 30px;
-  height: 30px;
-  text-align: center;
-  text-decoration: none;
-  border-radius: 50%;
 }
 
 /* Navbar */
@@ -562,32 +594,7 @@ footer a:hover, .dropdown:hover .dropbtn {
   -moz-transform: rotateX(0deg) rotateY(-360deg);
 }
 
-
 .container{
   max-width: 100%
   padding: 10px;
-}
-
-.box1{
-  width: 50%;
-  height: 100px;
-  display: grid;
-  vertical-align: top;
-  float: left;
-}
-
-.box2{
-  width: 20%;
-  height: 100px;
-  display: grid
-  vertical-align: top;
-  float: center;
-}
-
-.box3{
-  width: 30%;
-  height: 100px;
-  display: grid;
-  vertical-align: top;
-  float: right;
 }
