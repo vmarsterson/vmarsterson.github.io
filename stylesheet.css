@@ -50,36 +50,31 @@ body {
 
 .techtalks {
   display: block;
-    padding-top: 30px;
+    padding-top: 70px;
     padding-bottom: 30px;
+    padding-left: 10%;
+    padding-right: 150px;
+    max-width: 80%;
+    max-height: 200px;
     background-image: url("img/wirecorner.png");
     background-repeat: no-repeat;
     background-position: right top;
-    background-size: 250px;
-    max-width: 70%;
-    padding-left: 5%;
-    padding-right: 30%;
+    background-size: 500px;
 } 
 /*    background-image: linear-gradient(to top left, #FFF, #FFF, #e7f8fe, #d0f1fe, #b9eafd, #8addfc, #16BCFA);
 */
-
-p {font-size: 200px;}
 
 /* Nav bar */ 
 
 .navbar {
   overflow: hidden;
   background-color: #213E7A;
-}
-
-.navbar a {
-  float: center;
-  font-size: 0.25em;
-  font-weight: 20;
-  color: white;
-  text-align: center;
-  padding: 5px 5px;
-  text-decoration: none;
+  position: relative;
+  top: 0;
+  left: 2px;
+  width:100%;
+  display: block;
+  padding: 15px 15px;
 }
 
 .menudrop {
@@ -87,9 +82,8 @@ p {font-size: 200px;}
 }
 
 .dropdown {
-  float: left;
+  float: center;
 }
-
 .dropdown .dropbtn {
   font-size: 16px; 
     border: none;
@@ -101,8 +95,9 @@ p {font-size: 200px;}
     margin: 0;
 }
 
-.navbar a:hover, .dropdown:hover .dropbtn {
+.dropdown:hover .dropbtn:hover {
   background-color: #FE8548;
+  display: block;
 }
 
 .dropdown-content {
@@ -126,10 +121,32 @@ p {font-size: 200px;}
   background-color: #ddd;
 }
 
-.dropdown:hover .dropdown-content {
-  display: block;
+
+/* text */
+
+.bluetext {
+  color: #213E7A;
 }
 
+
+.turquoisegrad {
+  background-color: #16BCFA;
+  background-image: linear-gradient(to bottom, #16BCFA, white);
+  width: 100%;
+  margin-top:0px;
+  margin-bottom: 0px;
+}
+
+.large{
+  font-size: 2em;
+ }
+
+ p {
+  font-family: Aileronregular, Sans-Serif;
+  font-weight: 20;
+  padding-left: 5%;
+  padding-right: 5%;
+}
 
 /* Re-sizing */
 
@@ -204,7 +221,6 @@ p {font-size: 200px;}
       overflow: hidden;
       background-color: #213E7A;
       position: sticky;
-      top: 100px;
       width: 100%;
       display: block;
       padding: 15px 15px;
