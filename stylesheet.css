@@ -1,5 +1,6 @@
+/* Imported fonts &&& */
 
-  @font-face {
+@font-face {
     
     font-family: "Aileronblack";
     src: 
@@ -33,568 +34,239 @@
 
    https://www.w3schools.com/colors/colors_picker.asp 
 
-  API key: AIzaSyACBAwAMip35NzaKax_rq95bT5e61U4cvQ*/
+  API key: AIzaSyACBAwAMip35NzaKax_rq95bT5e61U4cvQ */
 
- /* Text formatting */
-
-
-.centred {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    padding-top: 50px;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.button {
-  background-color: #213E7A;
-  box-shadow: 15%;
-  color: #FE8548;
-  border-radius: 8px;
-  border: 2px solid #16BCFA;
-  padding-bottom: 15px;
-  padding-top: 15px;
-  text-align: center;
-  text-decoration: none;
-  font-weight: 20;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 25%;
-  font-size: 2em;
-  font-family: Aileron;
-}
-
-.button:hover {
-  background-color: #213E7A;
-  color:#213E7A ;
-}
-
-.right {
-  text-align: right;
-}
-
-.left {
-  text-align: left;
-}
-/* Text size */
-p {
-  font-family: Aileronregular, Sans-Serif;
-  font-weight: 20;
-  padding-left: 5%;
-  padding-right: 5%;
-}
-
-.large{
-  font-size: 2em;
- }
-
-.medium{
-  font-size: 1.25em;
-}
-
-.small, .times {
-  font-size: 1em;
-}
-
-.tiny {
-  font-size: 0.5em;
-  text-align: center;
-}
-
-h1 {  
-  font-family: Aileronblack, Sans-Serif;
-  font-weight: 1000;
-  font-size: 4em;
-  text-align: left;
-  font-weight: 1000;
-  padding-left: 10%;
-  padding-right: 20%;
-  padding-top: 60px;
-  padding-bottom: 0px;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  clear: both;
-}
-
-h2 {
-  text-align: left;
-  font-family: Aileronblack, Sans-Serif;
-  color: #213E7A;
-  font-size: 1.5em;
-  margin-left: 5%;
-  font-weight: 10;
-  margin-right: 5%;
-  padding-top: 10px;
-  margin-top: 0px;
-  margin-bottom: 0px;
-}
-
-h3 {
-  font-family: Aileronblack, Sans-Serif;
-  font-weight: 100;
-  font-size: 2em;
-  text-align: center;
-  padding-left: 20%;
-  padding-right: 20%;
-  padding-top: 60px;
-  padding-bottom: 60px;
-  margin-top: 0px;
-  margin-bottom: 0px;
-}
-
-h4 {font-family: Aileronblack, Sans-Serif;
-  font-weight: 1000;
-  opacity: 0.7;
-  font-size: 4em;
-  text-align: left;
-  padding-left: 10%;
-  padding-right: 20%;
-  padding-top: 0px;
-  padding-bottom: 60px;
-  margin-top: 0px;
-  margin-bottom: 0px;
-}
-
-h5 {font-family: Aileronblack, Sans-Serif;
-  font-weight: 1000;
-  font-size: 3em;
-  text-align: center;
-  font-weight: 20;
-  padding-left: 10%;
-  padding-right: 20%;
-  padding-top: 60px;
-  padding-bottom: 0px;
-  margin-top: 0px;
-  margin-bottom: 0px;
-}
-
-h6 {font-family: Aileronblack, Sans-Serif;
-  font-weight: 1000;
-  font-size: 1.5em;
-  text-align: right;
-  font-weight: 1000;
-  padding-left: 10%;
-  padding-right: 10%;
-  padding-top: 0px;
-  padding-bottom: 0px;
-  margin-top: 0px;
-  margin-bottom: 0px;
-}
-
-.right{
-  text-align: right;
-}
-
-.left{
-  text-align: left;
-}
-/* Colours */
-
-.white{
+body {
   background-color: white;
-  color: #213E7A;
+  font-family: Aileronbold, Segoe UI, Arial, Sans-Serif;
 }
 
-.orange {
-  background-color: #FE8548;
-  color: #56175F;
-}
+/* Banner */ 
 
-.purple {
-  background-color: #56175F;
-  color: white;
-}
+.techtalks {
+  display: block;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-image: url("img/wirecorner.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: 250px;
+    max-width: 70%;
+    padding-left: 5%;
+    padding-right: 30%;
+} 
+/*    background-image: linear-gradient(to top left, #FFF, #FFF, #e7f8fe, #d0f1fe, #b9eafd, #8addfc, #16BCFA);
+*/
 
-.blue {
- background-color: #213E7A;
- color: white;
-}
+p {font-size: 200px;}
 
-.bluetext {
-  color: #213E7A;
-}
+/* Nav bar */ 
 
-.purpletext {
-  color:#56175F;
-}
-
-.whitetext {
-  color: #ffff;
-}
-
-.orangetext {
-  color: #FE8548;
-}
-
-.turquoisegrad {
-  background-color: #16BCFA;
-  background-image: linear-gradient(to bottom, #16BCFA, white);
-  width: 100%;
-  margin-top:0px;
-  margin-bottom: 0px;
-}
-
-.orangegrad {
-  background-color: #FE8548;
-  background-image: linear-gradient(to bottom, #FE8548, white);
-  width: 100%;
-  margin-top:0px;
-  margin-bottom: 0px;
-}
-
-.purplegrad {
-  width: 100%
-  height: 100%
-  background-image: linear-gradient(to bottom, #56175F, #213E7A);
-  width: 100%;
-  margin-top:0px;
-  margin-bottom: 0px;
-}
-
-/* Padding */
-.paddingless {
-  padding-top: 0px;
-  padding-bottom: 0px;
-}
-
-.padded {
-  padding-bottom: 20px
-}
-
-/* Tables */
-
-.box {
-  color: #213E7A;
-  border-radius: 10px;
-}
-
-/* Agenda */
-
-.main {
-  width: 94.75%;
-  margin: 0 auto;
-  height: 100%;
-  background-color: red;
-}
-
-.col {
-  width: 50%;
-  height: 500px;
-  float: left;
-}
-
-
-.grid {
-  border: 2px #213E7A solid;
-  width: 100%;
-  grid-template: repeat(7, 1fr)/ 2.5fr 0.5fr 1fr;
-  height: 1000px;
-  display: grid;
-}
-
-.day {
-  grid-row: 1 / span all;
-  grid-column: 3;
-  text-align: center;
-  font-size: 20em;
-  font-stretch: ultra-condensed;
-  font-family: Aileronblack, Sans-Serif;
-  font-weight: 10px;
-}
-
-.bubble {
-  width: 80%;
-  border: 1px solid #213E7A;
-  box-shadow: 7px 5px 5px #213E7A; 
-  padding: 10px;
-  border-radius: 5px;
-  margin: 10px;
-}
-
-.leftshade {
-  background-image: linear-gradient(to right, #b4eafd, white);
-}
-
-.rightshade {
-  background-image: linear-gradient(to left, #b4eafd, white);
-}
-
-/* Speakers */
-.grid2 {
-  border: 10px;
-  margin: 50px;
-  max-width: 100%;
-  grid-template: repeat(4, 1fr)/ repeat(4, 1fr 4fr);
-  height: 1000px;
-  display: grid;
-}
-
-.curved {
-    border-radius: 50%;
-    max-width: 120px;
-    max-height: 120px;
-}
-
-/* Lists */ 
-
-.map {
-  margin-top: 0px;
-  margin-bottom: 0px;
-}
-
-/* Navbar */
 .navbar {
   overflow: hidden;
   background-color: #213E7A;
-  font-family: Aileron, Segoe UI, Arial, Sans-Serif;
-  position: fixed;
-  width: 100%;
-  display: block;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  font-size: 20px;
 }
 
-/* Links inside the navbar */
 .navbar a {
   float: center;
-  font-size: 1em;
-  font-family: Aileron, Segoe UI, Arial, Sans-Serif;
-  font-weight: 40;
+  font-size: 0.25em;
+  font-weight: 20;
   color: white;
   text-align: center;
-  padding: 16px 16px;
+  padding: 5px 5px;
   text-decoration: none;
 }
 
-/* Colour of hover */
-.navbar a:hover {
-  color: #FE8548;
+.menudrop {
+  max-height: 10px;
 }
 
-.map {
-  width:100%;height:400px;
-}
-/* Icons */
-
-.fa {
-  padding: 30px;
-  width: 30px;
-  height: 30px;
-  text-align: center;
-  text-decoration: none;
-  border-radius: 50%;
-  align-content: center;
-}
-
-/* Hover */
-.fa:hover {
-  opacity: 0.7;
-}
-
-/* Facebook */
-.fa-facebook {
-  background: #3B5998;
-  color: white;
-}
-
-/* Twitter */
-.fa-twitter {
-  background: #55ACEE;
-  color: white;
-}
-
-/* LinkedIn */
-.fa-linkedin {
-  background: #0077B5 ;
-  color: white;
-}
-
-/* Instagram */
-.fa-instagram {
- background: #213E7A;
- color: white;
-}
-
-img {
-  max-width: 100%;
-  height: auto;
-}
-
-footer {
-  background-color: #213E7A;
-  font-family: Aileronregular, Sans-Serif;
-  position: bottom;
-  width: 100%;
-  height: 60px;
-  margin-top: 0px;
-}
-
-/* Links inside the navbar */
-footer a {
+.dropdown {
   float: left;
-  font-size: 1em;
-  font-family: Aileronregular, Sans-Serif;
-  color: white;
-  text-align: center;
-  padding: 16px 16px;
-  text-decoration: none;
-  margin-top: 0px;
 }
 
-/* Colour of hover */
-footer a:hover, .dropdown:hover .dropbtn {
-  opacity: 0.7;
+.dropdown .dropbtn {
+  font-size: 16px; 
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
 }
 
-/* Flip box */
-
-.flip-box {
-  background-color: transparent;
-  width: 300px;
-  height: 300px;
-  border: 1px solid #f1f1f1;
-  perspective: 1000px;
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #FE8548;
 }
 
-/* This container is needed to position the front and back side */
-.flip-box-inner {
-  position: center;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  transition: transform 0.8s;
-  transform-style: preserve-3d;
-}
-
-/* Do an horizontal flip when you move the mouse over the flip box container */
-.flip-box:hover .flip-box-inner {
-  transform: rotateY(180deg);
-}
-
-/* Position the front and back side */
-.flip-box-front, .flip-box-back {
+.dropdown-content {
+  display: none;
   position: absolute;
-  width: 100%;
-  height: 100%;
-  backface-visibility: hidden;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
 }
 
-/* Style the front side */
-.flip-box-front {
-  background-color: #bbb;
+.dropdown-content a {
+  float: none;
   color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
 }
 
-/* Style the back side */
-.flip-box-back {
-  background-color: dodgerblue;
-  color: white;
-  transform: rotateY(180deg);
+.dropdown-content a:hover {
+  background-color: #ddd;
 }
 
-.flip-box:hover .flip-box-inner {
-  transform: rotateY(180deg);
+.dropdown:hover .dropdown-content {
+  display: block;
 }
 
-.flip-box-back {
-  transform: rotateY(180deg);
+
+/* Re-sizing */
+
+
+@media only screen and (min-width: 360px){
+  .techtalks {
+    background-size: 350px;
+    padding-left: 5%;
+      padding-right: 35%;
+  }
 }
 
-/* Flipbox 2 */
-
-/* Column Grids */
-
-.col_half { width: 49%; }
-.col_third { width: 32%; }
-.col_fourth { width: 23.5%; }
-.col_fifth { width: 18.4%; }
-.col_sixth { width: 15%; }
-.col_three_fourth { width: 74.5%;}
-.col_twothird{ width: 66%;}
-.col_half,
-.col_third,
-.col_twothird,
-.col_fourth,
-.col_three_fourth,
-.col_fifth{
-  position: relative;
-  display:inline;
-  display: inline-block;
-  float: left;
-  margin-right: 2%;
-  margin-bottom: 20px;
-}
-.end { margin-right: 0; }
-
-/* Flip Panel */
-
-.wrapper{ width: 100%; margin: 50 auto;  background-color: #bdd3de; hoverflow: hidden;}
-
-.panel {
-  margin: 0 auto;
-  height: 300px;  
-  position: relative;
-  -webkit-perspective: 300px;
-  -moz-perspective: 300px;
+@media only screen and (min-width: 450px){
+  .techtalks {
+    background-size: 400px;
+    padding-left: 5%;
+      padding-right: 30%;
+  }
 }
 
-.panel .front,
-.panel .back {
-  text-align: center;
-}
-  
-.panel .front {
-  height: inherit;
-  position: absolute;
-  top: 0;
-  z-index: 900;
-  text-align: center;
-  -webkit-transform: rotateX(180deg) rotateY(0deg);
-     -moz-transform: rotateX(180deg) rotateY(0deg);
-  -webkit-transform-style: preserve-3d;
-     -moz-transform-style: preserve-3d;
-  -webkit-backface-visibility: hidden;
-     -moz-backface-visibility: hidden;
-  -webkit-transition: all 0.8s ease-in-out;
-     -moz-transition: all 0.8s ease-in-out;
-    -ms-transition: all 0.8s ease-in-out;
-     -o-transition: all 0.8s ease-in-out;
-      transition: all 0.8s ease-in-out;
-    transform-style: preserve-3d;
+@media only screen and (min-width: 500px){
+
+    .techtalks {
+        padding-left: 10%;
+        padding-right: 40%;
+        background-size: 500px;
+    }
 }
 
-.panel .back {
-  height: inherit;
-  position: absolute;
-  top: 0;
-  z-index: 1000;
-  -webkit-transform: rotateY(180deg);
-     -moz-transform: rotateY(180deg);
-  -webkit-transform-style: preserve-3d;
-     -moz-transform-style: preserve-3d;
-  -webkit-backface-visibility: hidden;
-     -moz-backface-visibility: hidden;
-  -webkit-transition: all 0.8s ease-in-out;
-     -moz-transition: all 0.8s ease-in-out;
-    -ms-transition: all 0.8s ease-in-out;
-     -o-transition: all 0.8s ease-in-out;
-      transition: all 0.8s ease-in-out;
+@media only screen and (min-width: 615px){
+  .techtalks {
+    background-size: 600px;
+    padding-left: 10%;
+      padding-right: 35%;
+  }
 }
 
-.panel.flip .front {
-  z-index: 900;
-  -webkit-transform: rotateY(180deg);
-  -moz-transform: rotateY(180deg);
-}
-.panel.flip .back {
-  z-index: 1000;
-  -webkit-transform: rotateX(0deg) rotateY(-360deg);
-  -moz-transform: rotateX(0deg) rotateY(-360deg);
+/* Ipad */
+
+@media only screen and (min-width: 768px){
+    .techtalks {
+      padding-top: 50px;
+        padding-bottom: 50px;
+        max-width: 60%;
+        padding-left: 10%;
+        padding-right: 33%;
+        background-size: 650px;
+    }
+  }
+
+@media only screen and (min-width: 1000px){
+  .techtalks {
+    background-size: 900px;
+    padding-left: 5%;
+      padding-right: 35%;
+  }
 }
 
-.container{
-  max-width: 100%
-  padding: 10px;
+/* Laptop */
+  @media only screen and (min-width: 1097px){
+
+    .techtalks {
+      padding-top: 50px;
+        padding-bottom: 50px;
+        max-width: 60%;
+        padding-left: 10%;
+        padding-right: 30%;
+        background-size: 800px;
+    }
+
+    .navbar {
+      overflow: hidden;
+      background-color: #213E7A;
+      position: sticky;
+      top: 100px;
+      width: 100%;
+      display: block;
+      padding: 15px 15px;
+      font-size: 20px;
+    }
+
+      .navbar a {
+      float: center;
+      font-size: 1em;
+      font-weight: 40;
+      color: white;
+      text-align: center;
+      padding: 16px 16px;
+      text-decoration: none;
+    }
+  }
+
+@media only screen and (min-width: 1100px){
+  .techtalks {
+    background-size: 900px;
+    padding-left: 5%;
+      padding-right: 35%;
+  }
 }
+
+@media only screen and (min-width: 1260px){
+  .techtalks {
+    background-size: 1000px;
+    padding-left: 5%;
+      padding-right: 35%;
+  }
+}
+
+@media only screen and (min-width: 1400px){
+  .techtalks {
+    background-size: 1100px;
+    padding-left: 5%;
+      padding-right: 35%;
+  }
+}
+@media only screen and (min-width: 1603px){
+  .techtalks {
+    background-size: 1200px;
+    padding-left: 5%;
+      padding-right: 35%;
+    }
+}
+
+@media only screen and (min-width: 1800px){
+  .techtalks {
+    background-size: 1500px;
+    padding-left: 5%;
+      padding-right: 35%;
+  }
+}
+
+@media only screen and (min-width: 2200px){
+  .techtalks {
+    background-size: 1700px;
+    padding-left: 5%;
+      padding-right: 30%;
+  }
+}
+
+
