@@ -172,16 +172,30 @@ body {
 
 @media only screen and (min-width: 425px){
   .mobiletechtalks {
-    background-size: 700px;
+    padding-top: 80px;
+    max-height: 275px;
+    background-size: 600px;
+    padding-right: 250px;
+  }
+}
+
+@media only screen and (min-width: 480px){
+  .mobiletechtalks {
+    padding-top: 80px;
+    max-height: 300px;
+    background-size: 650px;
     padding-right: 275px;
   }
 }
 
+
 @media only screen and (min-width: 535px){
   .mobiletechtalks {
-    max-height: 250px;
-    background-size: 700px;
-    padding-right: 300px;
+    padding-top: 70px;
+    max-height: 300px;
+    background-size: 600px;
+    padding-right: 290px;
+    padding-bottom: 40px;
   }
 } 
 
@@ -189,22 +203,24 @@ body {
 
   .mobiletechtalks {
     max-height: 275px;
-    background-size: 800px;
-    padding-right: 300px;
+    background-size: 750px;
+    padding-right: 330px;
+    padding-left: 15%;
   }
 }
 
-@media only screen and (min-width: 639px){
+@media only screen and (min-width: 615px){
     .mobiletechtalks {
       display: none}
 
     .desktoptechtalks
     {display: block;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
     padding-left: 5%;
-    padding-right: 10%;
+    padding-right: 200px;
     max-width: 80%;
+    max-height: 150px;
     background-image: url("img/wirecorner.png");
     background-repeat: no-repeat;
     background-position: right top;
@@ -212,7 +228,32 @@ body {
     }
 }
 
+@media only screen and (min-width: 675px){
+    .mobiletechtalks {
+      display: none}
+
+    .desktoptechtalks
+    {display: block;
+    padding-left: 10%;
+    padding-right: 225px;
+    max-height: 150px;
+    background-size: 500px;
+    }
+}
+
 /* Ipad */
+
+@media only screen and (min-width: 725px){
+    .desktoptechtalks {
+      padding-top: 50px;
+        padding-bottom: 50px;
+        max-width: 60%;
+        max-height: 200px;
+        padding-left: 10%;
+        padding-right: 225px;
+        background-size: 580px;
+    }
+  }
 
 @media only screen and (min-width: 768px){
     .desktoptechtalks {
@@ -220,16 +261,24 @@ body {
         padding-bottom: 50px;
         max-width: 60%;
         padding-left: 10%;
-        padding-right: 33%;
-        background-size: 650px;
+        padding-right: 225px;
+        background-size: 580px;
     }
   }
 
+@media only screen and (min-width: 900px){
+  .desktoptechtalks {
+    background-size: 600px;
+    padding-left: 10%;
+    padding-right: 250px;
+  }
+}
+
 @media only screen and (min-width: 1000px){
   .desktoptechtalks {
-    background-size: 900px;
-    padding-left: 5%;
-      padding-right: 35%;
+    background-size: 700px;
+    padding-left: 10%;
+    padding-right: 325px;
   }
 }
 
@@ -241,7 +290,7 @@ body {
         padding-bottom: 50px;
         max-width: 60%;
         padding-left: 10%;
-        padding-right: 30%;
+        padding-right: 350px;
         background-size: 800px;
     }
 
@@ -269,48 +318,31 @@ body {
 @media only screen and (min-width: 1100px){
   .desktoptechtalks {
     background-size: 900px;
+    max-height: 300px;
     padding-left: 5%;
-      padding-right: 35%;
+      padding-right: 370px;
   }
 }
 
 @media only screen and (min-width: 1260px){
   .desktoptechtalks {
-    background-size: 1000px;
+    background-size: 950px;
     padding-left: 5%;
-      padding-right: 35%;
+      padding-right: 400px ;
   }
 }
 
 @media only screen and (min-width: 1400px){
   .desktoptechtalks {
-    background-size: 1100px;
-    padding-left: 5%;
-      padding-right: 35%;
+    background-size: 950px;
+    padding-left: 10%;
+    padding-right: 400px;
   }
 }
-@media only screen and (min-width: 1603px){
+@media only screen and (min-width: 1550px){
   .desktoptechtalks {
-    background-size: 1200px;
-    padding-left: 5%;
-      padding-right: 35%;
+    background-size: 1000px;
+      padding-right: 400px;
     }
 }
-
-@media only screen and (min-width: 1800px){
-  .desktoptechtalks {
-    background-size: 1500px;
-    padding-left: 5%;
-      padding-right: 35%;
-  }
-}
-
-@media only screen and (min-width: 2200px){
-  .desktoptechtalks {
-    background-size: 1700px;
-    padding-left: 5%;
-      padding-right: 30%;
-  }
-}
-
 
