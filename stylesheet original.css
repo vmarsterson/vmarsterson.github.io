@@ -38,15 +38,23 @@
  /* Text formatting */
 
 
-.centred {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    padding-top: 50px;
+.banner {
+    display: inline;
+    float: left;
+    margin-left: 5%;
+    margin-top: 7%;
+    margin-bottom: 7%;
+    width: 65%;
+}
+
+.wires {
+  display: inline;
+  float: right;
+  width: 30%;
 }
 
 .button {
+  clear: both;
   background-color: #16BCFA;
   box-shadow: 15%;
   color: white;

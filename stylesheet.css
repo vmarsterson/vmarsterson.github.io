@@ -48,83 +48,95 @@ body {
 
 /* Banner */ 
 
-.mobiletechtalks {
-  display: block;
-  padding-top: 70px;
-  padding-bottom: 30px;
-  padding-left: 10%;
-  padding-right: 150px;
-  max-width: 80%;
-  max-height: 200px;
-  background-image: url("img/wirecorner.png");
-  background-repeat: no-repeat;
-  background-position: right top;
-  background-size: 500px;
-} 
+.mtechtalks {
+  display: inline;
+  float: left;
+  margin-left: 15%;
+  margin-top: 7%;
+  margin-bottom: 7%;
+  width: 47%;
+}
 
-.desktoptechtalks {
+.dtechtalks {
   display: none;
 }
-/*    background-image:
-*/
+
+.wires{
+  display: inline;
+  float: right;
+  width: 38%;
+}
+
 
 /* Nav bar */ 
 
 .navbar {
-  overflow: hidden;
   background-color: #213E7A;
   position: relative;
   top: 0;
-  left: 2px;
-  width:100%;
+  width: 100%;
   display: block;
-  padding: 15px 15px;
+  height: 70px;
 }
 
 .menudrop {
-  max-height: 10px;
+  max-height: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 0;
+}
+
+.logobar { 
+  display: inline;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  height: 50px;
 }
 
 .dropdown {
-  float: center;
+  float: left;
+  overflow: hidden;
+  display: inline;
 }
+
 .dropdown .dropbtn {
-  font-size: 16px; 
+    font-size: 16px; 
     border: none;
     outline: none;
     color: white;
-    padding: 14px 16px;
-    background-color: inherit;
-    font-family: inherit;
+    padding-top: 15px;
+    padding-left: 20px;
+    background-color: #213E7A;
+    font-family: aileronblack;
     margin: 0;
 }
 
-.dropdown:hover .dropbtn:hover {
-  background-color: #FE8548;
+.dropdown:hover{
   display: block;
 }
 
-.dropdown-content {
+.dropdowncontent {
   display: none;
+  background-color: #213E7A;
   position: absolute;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
 
-.dropdown-content a {
-  float: none;
-  color: black;
+.dropdowncontent a {
+  color: white;
   padding: 12px 16px;
-  text-decoration: none;
   display: block;
-  text-align: left;
 }
 
-.dropdown-content a:hover {
-  background-color: #ddd;
+.dropdowncontent a:hover {
+  background-color: #16BCFA;
 }
 
+.dropdown:hover .dropdowncontent {
+  display: block;
+}
 
 /* text */
 
@@ -134,6 +146,7 @@ body {
 
 
 .turquoisegrad {
+  clear: both;
   background-color: #16BCFA;
   background-image: linear-gradient(to top left, #FFF, #FFF, #e7f8fe, #d0f1fe, #b9eafd, #8addfc, #16BCFA);
   width: 100%;
@@ -152,197 +165,69 @@ body {
   padding-right: 5%;
 }
 
-/* Re-sizing */
-
-
-@media only screen and (min-width: 330px){
-  .mobiletechtalks {
-    max-height: 250px;
-    background-size: 600px;
-    padding-right: 200px;
-  }
-} 
-
-@media only screen and (min-width: 390px){
-  .mobiletechtalks {
-    background-size: 650px;
-    padding-right: 240px;
-  }
-} 
-
-@media only screen and (min-width: 425px){
-  .mobiletechtalks {
-    padding-top: 80px;
-    max-height: 275px;
-    background-size: 600px;
-    padding-right: 250px;
-  }
-}
-
-@media only screen and (min-width: 480px){
-  .mobiletechtalks {
-    padding-top: 80px;
-    max-height: 300px;
-    background-size: 650px;
-    padding-right: 275px;
-  }
-}
-
-
-@media only screen and (min-width: 535px){
-  .mobiletechtalks {
-    padding-top: 70px;
-    max-height: 300px;
-    background-size: 600px;
-    padding-right: 290px;
-    padding-bottom: 40px;
-  }
-} 
-
-@media only screen and (min-width: 580px){
-
-  .mobiletechtalks {
-    max-height: 275px;
-    background-size: 750px;
-    padding-right: 330px;
-    padding-left: 15%;
-  }
-}
+/* Re-sizing - larger screen */
 
 @media only screen and (min-width: 615px){
-    .mobiletechtalks {
-      display: none}
 
-    .desktoptechtalks
-    {display: block;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    padding-left: 5%;
-    padding-right: 200px;
-    max-width: 80%;
-    max-height: 150px;
-    background-image: url("img/wirecorner.png");
-    background-repeat: no-repeat;
-    background-position: right top;
-    background-size: 500px;
-    }
-}
+/** Banner **/
 
-@media only screen and (min-width: 675px){
-    .mobiletechtalks {
-      display: none}
-
-    .desktoptechtalks
-    {display: block;
-    padding-left: 10%;
-    padding-right: 225px;
-    max-height: 150px;
-    background-size: 500px;
-    }
-}
-
-/* Ipad */
-
-@media only screen and (min-width: 725px){
-    .desktoptechtalks {
-      padding-top: 50px;
-        padding-bottom: 50px;
-        max-width: 60%;
-        max-height: 200px;
-        padding-left: 10%;
-        padding-right: 225px;
-        background-size: 580px;
-    }
-  }
-
-@media only screen and (min-width: 768px){
-    .desktoptechtalks {
-      padding-top: 50px;
-        padding-bottom: 50px;
-        max-width: 60%;
-        padding-left: 10%;
-        padding-right: 225px;
-        background-size: 580px;
-    }
-  }
-
-@media only screen and (min-width: 900px){
-  .desktoptechtalks {
-    background-size: 600px;
-    padding-left: 10%;
-    padding-right: 250px;
-  }
-}
-
-@media only screen and (min-width: 1000px){
-  .desktoptechtalks {
-    background-size: 700px;
-    padding-left: 10%;
-    padding-right: 325px;
-  }
-}
-
-/* Laptop */
-  @media only screen and (min-width: 1097px){
-
-    .desktoptechtalks {
-      padding-top: 50px;
-        padding-bottom: 50px;
-        max-width: 60%;
-        padding-left: 10%;
-        padding-right: 350px;
-        background-size: 800px;
+    .mtechtalks {
+      display: none
     }
 
+    .dtechtalks {
+    display: inline;
+    float: left;
+    margin-left: 5%;
+    margin-top: 7%;
+    margin-bottom: 7%;
+    width: 65%;
+    }
+
+    .wires {
+  display: inline;
+  float: right;
+  width: 30%;
+    }
+
+ /** Navbar **/
+    
     .navbar {
-      overflow: hidden;
-      background-color: #213E7A;
-      position: sticky;
-      width: 100%;
-      display: block;
-      padding: 15px 15px;
-      font-size: 20px;
+      position: fixed;
     }
 
       .navbar a {
       float: center;
-      font-size: 1em;
+      font-size: 20px;
       font-weight: 40;
       color: white;
       text-align: center;
       padding: 16px 16px;
-      text-decoration: none;
     }
-  }
 
-@media only screen and (min-width: 1100px){
-  .desktoptechtalks {
-    background-size: 900px;
-    max-height: 300px;
-    padding-left: 5%;
-      padding-right: 370px;
-  }
+    .dropdowncontent {
+      display: block;
+      position: absolute;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
 }
 
-@media only screen and (min-width: 1260px){
-  .desktoptechtalks {
-    background-size: 950px;
-    padding-left: 5%;
-      padding-right: 400px ;
-  }
+.logobar { 
+  position: inline;
+  float: right;
+  padding-top: 20px;
+  padding-left: 70%;
+  padding-right: 5%;
+  width: 5%;
+  bottom: 0;
 }
 
-@media only screen and (min-width: 1400px){
-  .desktoptechtalks {
-    background-size: 950px;
-    padding-left: 10%;
-    padding-right: 400px;
-  }
+.dropdowncontent a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
 }
-@media only screen and (min-width: 1550px){
-  .desktoptechtalks {
-    background-size: 1000px;
-      padding-right: 400px;
-    }
-}
-
