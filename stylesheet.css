@@ -73,7 +73,6 @@ body {
 .navbar {
   background-color: #213E7A;
   position: relative;
-  top: 0;
   width: 100%;
   display: block;
   height: 70px;
@@ -112,7 +111,7 @@ body {
     margin: 0;
 }
 
-.dropdown:hover{
+.dropdown:hover {
   display: block;
 }
 
@@ -190,44 +189,87 @@ body {
   width: 30%;
     }
 
+  }
+
+  @media only screen and (min-width: 918px) /*** CHANGE THIS WIDTH IF TITLES OF TABS ARE CHANGED TO FIT THE WIDTH OF WRITING**/
+  {
+
+ /** Banner **/
+    .dtechtalks {
+  padding-top: 60px;
+    }
+
+    .wires {
+  padding-top: 60px;
+    }
+
  /** Navbar **/
     
-    .navbar {
-      position: fixed;
-    }
+.navbar {
+  position: fixed;
+  display: inline;
+  height: 60px;
+}
 
-      .navbar a {
-      float: center;
-      font-size: 20px;
-      font-weight: 40;
-      color: white;
-      text-align: center;
-      padding: 16px 16px;
-    }
-
-    .dropdowncontent {
-      display: block;
-      position: absolute;
-      min-width: 160px;
-      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-      z-index: 1;
+.menudrop {
+  display: none;
 }
 
 .logobar { 
-  position: inline;
-  float: right;
-  padding-top: 20px;
-  padding-left: 70%;
-  padding-right: 5%;
-  width: 5%;
-  bottom: 0;
+  display: inline;
+  position: fixed;
+  top: 5px;
+  left: 5px;
+  height: 50px;
+}
+
+.dropdown {
+  float: center;
+  overflow: hidden;
+  display: inline;
+}
+
+.dropdown .dropbtn {
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 20px;
+    background-color: #213E7A;
+    text-decoration: none;
+    font-family: aileronblack;
+    margin: 0;
+    padding-top: 5px;
+}
+
+.dropdown:hover {
+  display: inline;
+}
+
+.dropdowncontent {
+  display: inline;
+  position: fixed;
+  background-color: transparent;
+  z-index: 1;
+  padding-left: 70px;
 }
 
 .dropdowncontent a {
-    float: none;
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
+  color: white;
+  padding: 12px 16px;
+  display: inline;
+  float: center;
+  font-size: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.dropdowncontent a:hover {
+  color: #FE8548;
+  background-color: #213E7A;
+  height: 60px;
+  text-decoration: none;
+}
+
+.dropdown:hover .dropdowncontent {
+  display: inline;
 }
