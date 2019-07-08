@@ -109,6 +109,7 @@ h2 {
   text-align: left;
   padding-left: 5%;
   padding-right: 20%;
+  padding-bottom: 20px;
   padding-top: 0px;
   margin-top: 0px;
   margin-bottom: 0px;
@@ -268,20 +269,30 @@ h4 {
 /* The team */
 
 .teamtext {
+  padding-left: 10%;
   padding-right: 10%;
-  padding-left: 5%;
   padding-top: 10px;
+  padding-bottom: 5px;
+  width: 80%;
+  font-size: 1em;
   margin: 0;
   border: 0;
 }
 .team {
-  width: 95%;
-  padding: 2.5%;
-  padding-top: 10px;
+  display: none;
+  width: 100%;
+  padding-top: 0px;
   margin: 0;
   border: 0;
 }
 
+.team2 {
+  display: inline;
+  width: 100%;
+  padding-top: 0px;
+  margin: 0;
+  border: 0;
+}
 /* Agenda */
 
 .main {
@@ -362,6 +373,31 @@ h4 {
 
 .click a:hover {
   color:#213E7A;
+}
+  }
+
+  @media only screen and (min-width: 780px) {
+/* The team */
+
+.teamtext {
+  padding-left: 5%;
+  width: 40%;
+  font-size: 1em;
+   padding-top: 30px;
+  margin: 0;
+  border: 0;
+}
+.team {
+  display: inline;
+  float: right;
+  width: 50%;
+  padding-top: 0px;
+  margin: 0;
+  border: 0;
+}
+
+.team2 {
+  display: none;
 }
   }
 
@@ -490,6 +526,7 @@ h2 {
   font-size: 4em;
   padding-left: 7%;
   padding-right: 10%;
+  padding-bottom: 50px;
   z-index: 0;
 }
 
@@ -553,4 +590,42 @@ h2 a {
 .thecard:hover{
   transform: rotateY(180deg);
 }
+}
+
+ @media only screen and (min-width: 970px) /*** CHANGE THIS WIDTH IF TITLES OF TABS ARE CHANGED TO FIT THE WIDTH OF WRITING**/
+  {
+
+/* Our Team */
+
+.teamtext {
+  padding-right: 5%;
+  padding-left: 5%;
+  padding-top: 35px;
+  padding-bottom: 10px;
+  margin: 0;
+  border: 0;
+  font-size: 1.25em;
+}
+.team {
+  float: right;
+  width: 50%;
+  padding-top: 0px;
+  margin: 0;
+  border: 0;
+}
+}
+
+@media only screen and (min-width: 1081px) {
+.teamtext {
+  font-size: 1.4em;
+}
+
+@media only screen and (min-width: 1180px) {
+.teamtext {
+  font-size: 1.6em;
+}
+
+@media only screen and (min-width: 1400px) {
+.teamtext {
+  font-size: 1.8em;
 }
