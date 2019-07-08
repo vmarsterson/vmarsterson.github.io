@@ -171,6 +171,10 @@ body {
   color: #213E7A;
 }
 
+.purpletext {
+  color: #56175F;
+}
+
 
 .turquoisegrad {
   clear: both;
@@ -181,9 +185,14 @@ body {
   margin-bottom: 0px;
 }
 
-.large{
-  font-size: 2em;
- }
+.orangegrad {
+  clear: both;
+  background-color: #FE8548;
+  background-image: linear-gradient(to top left, #FFF, #FFF, #fef2ec, #fef2ec, #fee6da, #fee6da, #fedac8, #feceb5, #fec2a3, #feb591, #fea97e, #fe9d6c, #fe915a, #fe8548, #fe8548);
+  width: 100%;
+  margin-top:0px;
+  margin-bottom: 0px;
+}
 
  p {
   font-family: Aileronregular, Sans-Serif;
@@ -221,6 +230,61 @@ h2 {
   margin-top: 0px;
   margin-bottom: 0px;
 }
+
+h2 a {
+  display: none;
+}
+
+.main {
+  width: 94.75%;
+  margin: 0 auto;
+  height: 100%;
+  background-color: red;
+  overflow-wrap: 
+}
+
+.col {
+  width: 50%;
+  height: 500px;
+  float: left;
+}
+
+
+.grid {
+  border: 2px #213E7A solid;
+  width: 100%;
+  grid-template: repeat(7, 1fr)/ 2.5fr 0.5fr 1fr;
+  height: 1000px;
+  display: grid;
+}
+
+.day {
+  grid-row: 1 / span all;
+  grid-column: 3;
+  text-align: center;
+  font-size: 20em;
+  font-stretch: ultra-condensed;
+  font-family: Aileronblack, Sans-Serif;
+  font-weight: 10px;
+}
+
+.bubble {
+  width: 80%;
+  border: 1px solid #213E7A;
+  box-shadow: 7px 5px 5px #213E7A; 
+  padding: 10px;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.leftshade {
+  background-image: linear-gradient(to right, #b4eafd, white);
+}
+
+.rightshade {
+  background-image: linear-gradient(to left, #b4eafd, white);
+}
+
 
 /* Re-sizing - larger screen */
 
@@ -377,4 +441,81 @@ h2 {
   color:#213E7A;
 }
 
+
+/** Text **/
+
+h1 {
+  font-size: 4em;
+  padding-left: 7%;
+  padding-right: 10%;
+  padding-top: 50px;
+}
+
+h2 {
+  font-size: 4em;
+  padding-left: 7%;
+  padding-right: 10%;
+  z-index: 0;
+}
+
+h2 a {
+  display: inline;
+}
+
+ p {
+  font-size: 1.75em;
+  padding-left: 7%;
+  padding-right: 7%;
+  line-height: 1.5em;
+}
+
+/* Speakers */
+
+.grid2 {
+  border: 10px;
+  margin: 50px;
+  max-width: 100%;
+  grid-template: repeat(4, 1fr)/ repeat(4, 1fr 4fr);
+  max-height: 1000px;
+  display: grid;
+  position: relative;
+}
+
+.curved {
+    border-radius: 50%;
+    max-width: 120px;
+    max-height: 120px;
+}
+
+.maincontainer{
+  position: relative;
+  width: 40px;
+  height: 20px;
+  background-color: #b4eafd;
+} 
+
+.thecard{
+  position: ;
+  transform-style: preserve-3d;
+  transition: all 0.5s ease;
+}
+
+.thefront{ 
+  position: ;
+  backface-visibility: hidden;
+  background-color: yellow;
+  color: black;
+}
+
+.theback{
+  position: ;
+  backface-visibility: hidden;
+  background: pink;
+  color: black;
+  transform: rotateY(180deg);
+}
+
+.thecard:hover{
+  transform: rotateY(180deg);
+}
 }
