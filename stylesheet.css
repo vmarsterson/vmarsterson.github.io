@@ -269,12 +269,12 @@ h4 {
 /* The team */
 
 .teamtext {
-  padding-left: 10%;
-  padding-right: 10%;
+  padding-left: 5%;
+  padding-right: 5%;
   padding-top: 10px;
   padding-bottom: 5px;
-  width: 80%;
-  font-size: 1em;
+  width: 90%;
+  font-size: 1.25em;
   margin: 0;
   border: 0;
 }
@@ -295,12 +295,12 @@ h4 {
 }
 
 .teamtext2 {
-  padding-left: 10%;
-  padding-right: 10%;
+  padding-left: 5%;
+  padding-right: 5%;
   padding-top: 10px;
   padding-bottom: 10px;
-  width: 80%;
-  font-size: 1em;
+  width: 90%;
+  font-size: 1.25em;
   margin: 0;
   border: 0;
 }
