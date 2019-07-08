@@ -293,6 +293,17 @@ h4 {
   margin: 0;
   border: 0;
 }
+
+.teamtext2 {
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 80%;
+  font-size: 1em;
+  margin: 0;
+  border: 0;
+}
 /* Agenda */
 
 .main {
@@ -376,6 +387,41 @@ h4 {
 }
   }
 
+ @media only screen and (min-width: 620px) {
+/* The team */
+
+.teamtext {
+  padding-left: 5%;
+  width: 40%;
+  font-size: 0.75em;
+  padding-top: 30px;
+  margin: 0;
+  border: 0;
+}
+.team {
+  display: inline;
+  float: right;
+  width: 50%;
+  padding-top: 0px;
+  margin: 0;
+  border: 0;
+}
+
+.team2 {
+  display: none;
+  padding: 0px;
+
+}
+
+.teamtext2 {
+  padding-left: 5%;
+  width: 40%;
+  font-size: 0.75em;
+  padding-top: 0px;
+  margin: 0;
+  border: 0;padding-top: 0px;
+  }
+
   @media only screen and (min-width: 780px) {
 /* The team */
 
@@ -398,6 +444,10 @@ h4 {
 
 .team2 {
   display: none;
+}
+
+.teamtext2 {
+  font-size: 1em;
 }
   }
 
@@ -613,10 +663,24 @@ h2 a {
   margin: 0;
   border: 0;
 }
+
+.teamtext2 {
+  padding-right: 5%;
+  padding-left: 5%;
+  padding-top: 0px;
+  padding-bottom: 10px;
+  margin: 0;
+  border: 0;
+  font-size: 1.25em;
+}
 }
 
 @media only screen and (min-width: 1081px) {
 .teamtext {
+  font-size: 1.4em;
+}
+
+.teamtext2 {
   font-size: 1.4em;
 }
 
@@ -625,7 +689,16 @@ h2 a {
   font-size: 1.6em;
 }
 
+.teamtext2 {
+  font-size: 1.6em;
+}
+
 @media only screen and (min-width: 1400px) {
 .teamtext {
   font-size: 1.8em;
+}
+
+.teamtext2 {
+  font-size: 1.8em;
+}
 }
