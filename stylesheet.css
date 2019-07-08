@@ -47,28 +47,6 @@ body {
   font-family: Aileronbold, Segoe UI, Arial, Sans-Serif;
 }
 
-/* Banner */ 
-
-.mtechtalks {
-  display: inline;
-  float: left;
-  margin-left: 15%;
-  margin-top: 7%;
-  margin-bottom: 7%;
-  width: 47%;
-}
-
-.dtechtalks {
-  display: none;
-}
-
-.wires{
-  display: inline;
-  float: right;
-  width: 38%;
-}
-
-
 /* Nav bar */ 
 
 .navbar {
@@ -138,6 +116,26 @@ body {
   display: block;
 }
 
+/* Banner */ 
+
+.mtechtalks {
+  display: inline;
+  float: left;
+  margin-left: 15%;
+  margin-top: 7%;
+  margin-bottom: 7%;
+  width: 47%;
+}
+
+.dtechtalks {
+  display: none;
+}
+
+.wires{
+  display: inline;
+  float: right;
+  width: 38%;
+}
 
 /* Button */
 
@@ -177,8 +175,9 @@ body {
 .turquoisegrad {
   clear: both;
   background-color: #16BCFA;
-  background-image: linear-gradient(to top left, #FFF, #FFF, #e7f8fe, #d0f1fe, #b9eafd, #8addfc, #16BCFA);
+  background-image: linear-gradient(to top left, #FFF, #FFF, #e7f8fe, #e7f8fe, #e7f8fe, #e7f8fe, #d0f1fe, #b9eafd, #8addfc, #16BCFA, #16BCFA, #16BCFA);
   width: 100%;
+  padding: 20px;
   margin-top:0px;
   margin-bottom: 0px;
 }
@@ -189,9 +188,39 @@ body {
 
  p {
   font-family: Aileronregular, Sans-Serif;
+  font-size: 1em;
   font-weight: 20;
   padding-left: 5%;
   padding-right: 5%;
+  line-height: 1.5em;
+}
+
+h1 {
+  font-family: Aileronblack, Sans-Serif;
+  font-weight: 1000;
+  font-size: 3em;
+  text-align: left;
+  font-weight: 1000;
+  padding-left: 5%;
+  padding-right: 20%;
+  padding-top: 30px;
+  padding-bottom: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  clear: both;
+}
+
+h2 {
+  font-family: Aileronblack, Sans-Serif;
+  font-weight: 1000;
+  opacity: 0.7;
+  font-size: 3em;
+  text-align: left;
+  padding-left: 5%;
+  padding-right: 20%;
+  padding-top: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 /* Re-sizing - larger screen */
@@ -236,22 +265,10 @@ body {
 .click a:hover {
   color:#213E7A;
 }
-
   }
 
   @media only screen and (min-width: 918px) /*** CHANGE THIS WIDTH IF TITLES OF TABS ARE CHANGED TO FIT THE WIDTH OF WRITING**/
   {
-
- /** Banner **/
-    .dtechtalks {
-  padding-top: 30px;
-  padding-bottom: 0px;
-    }
-
-    .wires {
-  padding-top: 10px;
-  padding-bottom: 0px;
-    }
 
  /** Navbar **/
     
@@ -323,6 +340,16 @@ body {
 .dropdown:hover .dropdowncontent {
   display: inline;
 }
+/** Banner **/
+    .dtechtalks {
+  padding-top: 30px;
+  padding-bottom: 0px;
+    }
+
+    .wires {
+  padding-top: 10px;
+  padding-bottom: 0px;
+    }
 
 /* Button */
 
