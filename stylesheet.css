@@ -281,6 +281,13 @@
       color:#213E7A;
     }
 
+    .mobile {
+      float: right;
+    }
+
+    .textmob {
+      float: left;
+    }
 
 /* Mobile Team */
 
@@ -391,6 +398,14 @@
 
 /* Mobile Speakers */
 
+    .mspeaker {
+      display: block;
+    }
+
+    .dspeaker {
+      display: none;
+    }
+
       .flip-box {
       background-color: white;
       width: 400px;
@@ -474,6 +489,13 @@
     .break {
       position: static;
       display: block;
+    }
+
+    .grid {
+       max-width: 100%;
+       grid-template: repeat(6, 1fr)/ repeat(1, 1fr);
+       display: grid;
+       position: relative;
     }
 
 
@@ -596,7 +618,7 @@
       padding-left: 0.5em;
       padding-right: 0.5em;
     }
-  
+
   }
 
   @media only screen and (min-width: 780px) {
@@ -770,58 +792,24 @@
       line-height: 1.5em;
     }
 
-/* Speakers
+/* Speakers */
 
-.grid2 {
-  border: 10px;
-  margin: 50px;
-  max-width: 100%;
-  grid-template: repeat(4, 1fr)/ repeat(4, 1fr 4fr);
-  max-height: 1000px;
-  display: grid;
-  position: relative;
-}
+    .mspeaker {
+      display: none;
+    }
 
-.curved {
-    border-radius: 50%;
-    max-width: 120px;
-    max-height: 120px;
-}
+    .dspeaker {
+      display: block;
+    }
 
-.maincontainer{
-  position: relative;
-  width: 40px;
-  height: 20px;
-  background-color: #b4eafd;
-} 
+    .grid {
+       width: 100%;
+       grid-template: repeat(6, 1fr)/ repeat(2, 1fr);
+       display: grid;
+       position: relative;
+    }
 
-.thecard{
-  position: ;
-  transform-style: preserve-3d;
-  transition: all 0.5s ease;
-}
-
-.thefront{ 
-  position: ;
-  backface-visibility: hidden;
-  background-color: yellow;
-  color: black;
-}
-
-.theback{
-  position: ;
-  backface-visibility: hidden;
-  background: pink;
-  color: black;
-  transform: rotateY(180deg);
-}
-
-.thecard:hover{
-  transform: rotateY(180deg);
-}
-}
-
-*/
+  }
 
  @media only screen and (min-width: 970px) /*** CHANGE THIS WIDTH IF TITLES OF TABS ARE CHANGED TO FIT THE WIDTH OF WRITING**/
   {
@@ -873,6 +861,20 @@
     .teamtext2 {
       font-size: 1.6em;
     }
+  }
+
+@media only screen and (min-width: 1247px)
+  {
+/* Speakers */ 
+
+    .grid {
+       max-width: 100%;
+       grid-template: repeat(6, 1fr)/ repeat(3, 1fr);
+       display: grid;
+       position: relative;
+    }
+
+  }
 
     @media only screen and (min-width: 1400px) {
     .teamtext {
@@ -882,4 +884,5 @@
     .teamtext2 {
       font-size: 1.8em;
     }
+
     }
