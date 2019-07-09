@@ -65,6 +65,7 @@ body {
   width: 100%;
   margin-top:0px;
   margin-bottom: 0px;
+  overflow: scroll;
 }
 
 .orangegrad {
@@ -75,6 +76,11 @@ body {
   margin-top: 0px;
   padding: 0;
   margin-bottom: 0px;
+  overflow: scroll;
+}
+
+.orangetext {
+  color: #FE8548;
 }
 
  p {
@@ -94,6 +100,7 @@ h1 {
   font-weight: 1000;
   padding-left: 5%;
   padding-right: 20%;
+  width: 75%;
   padding-top: 30px;
   padding-bottom: 0px;
   margin-top: 0px;
@@ -123,7 +130,8 @@ h2 a {
 h3 {
   font-family: Aileronblack, Sans-Serif;
   font-weight: 1000;
-  font-size: 2em;
+  font-size: 4em;
+  color: #FE8548;
   text-align: center;
   font-weight: 20;
   padding-left: 10%;
@@ -146,8 +154,13 @@ h4 {
   padding-bottom: 0px;
   margin-top: 0px;
   margin-bottom: 0px;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
 }
 
+.small {
+  font-size: 1em;
+}
 /* Nav bar */ 
 
 .navbar {
@@ -306,40 +319,62 @@ h4 {
 }
 /* Agenda */
 
-.main {
-  width: 94.75%;
-  margin: 0 auto;
+.dates {
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
 }
 
 .col1 {
   width: 49%;
   border: 1%;
-  height: 500px;
   float: left;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .col2 {
   width: 49%;
   border: 1%;
-  height: 500px;
   float: right;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .bubble {
   width: 80%;
-  border: 1px solid #213E7A;
-  box-shadow: 7px 5px 5px #213E7A; 
+  border: 1px hidden #213E7A;
   padding: 10px;
-  border-radius: 5px;
-  margin: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  overflow: hidden;
+}
+
+.bubble p {
+  font-size: 1em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
 }
 
 .leftshade {
   background-image: linear-gradient(to right, #b4eafd, white);
+  text-align: center;
 }
 
 .rightshade {
   background-image: linear-gradient(to left, #b4eafd, white);
+  text-align: center;
+}
+
+ul .a {
+ list-style-type: circle;
 }
 
 
@@ -460,6 +495,7 @@ h4 {
   position: fixed;
   display: inline;
   height: 60px;
+  z-index: 2;
 }
 
 .menudrop {
