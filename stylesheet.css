@@ -164,9 +164,6 @@
       text-transform: uppercase;
     }
 
-    .small {
-      font-size: 1em;
-    }
 
 /* Mobile Nav bar */ 
 
@@ -207,7 +204,7 @@
       padding-top: 15px;
       padding-left: 20px;
       background-color: #213E7A;
-      font-family: aileronblack;
+      font-family: Aileronblack;
       margin: 0;
     }
 
@@ -263,15 +260,14 @@
     .click {
       clear: both;
       background-color: #FE8548;
-      font-family: Aileronblack;
+      font-family: Aileron;
       padding-top: 20px;
       padding-bottom: 20px;
       text-align: center;
       display: block;
       margin-left: auto;
       margin-right: auto;
-      width: 80%;
-      
+      width: 80%; 
     }
 
     .click a {
@@ -432,8 +428,14 @@
     }
 
     .flip-box-back p {
+      font-size: 1.1em;
+      padding: 15px;
+      text-align: justify;
+    }
+
+    .flip-box-back .small {
       font-size: 1em;
-      padding: 5px;
+      text-align: justify;
     }
 
     .flip-box-back h4 {
@@ -657,7 +659,7 @@
         font-size: 20px;
         background-color: #213E7A;
         text-decoration: none;
-        font-family: aileronblack;
+        font-family: Aileronblack;
         margin: 0;
         padding-top: 5px;
     }
@@ -710,7 +712,7 @@
     .click {
       clear: both;
       background-color: #FE8548;
-      font-family: Aileronblack;
+      font-family: Aileronbold;
       padding-top: 30px;
       padding-bottom: 30px;
       text-align: center;
