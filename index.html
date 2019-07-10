@@ -299,8 +299,8 @@
 <a name="Speakers."></a>
 	<div class="orangegrad purpletext">
 			<h1> Speakers. </h1>
-			<h2 class="mspeaker"> Click on an image to find out more. </h2>
-			<h2 class="dspeaker"> Uniting experts from a variety of sectors. </h2>
+			<h2 class="mspeaker"> Click on an image to <br> find out more. </h2>
+			<h2 class="dspeaker"> Uniting experts from<br> a variety of sectors. </h2>
 	</div>
 
 
@@ -671,7 +671,7 @@
 
 		 <div class="flip-box-inner">
 		    <div class="flip-box-front">
-		      <img src= "img/Speakers/Jon Bonnefon.jpg" alt= "Jean François Bonnefon">
+		      <img src= "img/Speakers/Jean Bonnefon.jpg" alt= "Jean François Bonnefon">
 		    </div>
 
 		    <!-- Back of box !--> 
@@ -845,7 +845,7 @@
 		      		<h5> Risk Manager Consultant, Wavestone </h5>
 			    </div>
 
-			      	<p class="bluetext"> Marine Maitre is a Risk Manager Consultant for Wavestone, a consulting agency specialising in management and digital issues. Maitre graduated from Sciences Po Bordeaux with a degree in Politics, Economics and Management, before studying “Global Risks and Crisis Management” in la Sorbonne. After having spent a year in Argentina working for the French Institute’s University and Scientific Cooperation Mission, Maitre worked as a consultant for EDF in the crisis management sector. She now works for Wavestone on cyber crisis management. </p>
+			      	<p class="bluetext small"> Marine Maitre is a Risk Manager Consultant for Wavestone, a consulting agency specialising in management and digital issues. Maitre graduated from Sciences Po Bordeaux with a degree in Politics, Economics and Management, before studying “Global Risks and Crisis Management” in la Sorbonne. After having spent a year in Argentina working for the French Institute’s University and Scientific Cooperation Mission, Maitre worked as a consultant for EDF in the crisis management sector. She now works for Wavestone on cyber crisis management. </p>
 			      	
 		 	</div>
 		  </div>
@@ -963,22 +963,63 @@
 
 </div>
 
+<!-- Map !-->
 
-<!--
-		<div class="grid2">
-				<img class="curved" src= "img/Speakers/Clotilde Cazamajour.jpg" alt= "Clotilde Cazamajour">
-			<p><small> Clothilde Cazamajour </small></p>
-				<img class="curved" src= "img/Speakers/Jerome Freiani.jpeg" alt= "Jérome Freiani">
-			<p><small> Jérome Freiani </small></p>
-
-				<img class="curved" src= "img/Speakers/Olivier Grall.png" alt= "Olivier Grall">
-			<p><small> Olivier Grall.png </small></p>
+<a name="location"></a>
+		<div class="turquoisegrad bluetext">
+				<h1> Location. </h1>
+				<h2> Where to find us. </h2>
+		</div>
+		
+		<div class="address bluetext">
+			<p> Join us on 12-13th September at: <br><br><b> SciencesPo Bordeaux, <br> 11 Allée Ausone, <br> 33600 Pessac,<br> Bordeaux <br> France </b></p> 
 		</div>
 
-		!-->
+		<img class="sciencespo" src="img/SciencesPo Bordeaux.jpg" alt="Sciences Po Bodeaux">
+		
 
-	<footer>
-	</footer>
+		<div id="googleMap" class="map"></div>
+
+				<script>
+
+					function myMap() {
+					var mapProp = {
+					    center:new google.maps.LatLng(44.798587,-0.613917),
+					    zoom:18,
+					};
+					var map=new google.maps.Map(document.getElementById("googleMap"), mapProp);
+					}
+
+				</script>
+
+				<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyACBAwAMip35NzaKax_rq95bT5e61U4cvQ&callback=myMap"></script>
+		</div>
+
+		
+
+<!-- Social Media -->
+
+			<a name="Follow"></a> 
+			<div class="orangegrad purpletext">
+				<h1> Follow Us </h1>
+				<h2> #HaveYourSay </h2>
+			</div>
+
+				<p class="purpletext"> Follow BIICS on our social media for live coverage and updates in the run up to the conference </p>
+
+				<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+			 <ul>
+			 	<a href="https://www.facebook.com/biics.cyber/" class="fa fa-facebook"></a>
+			 	<a href="https://twitter.com/BIICSCyber" class="fa fa-twitter"></a>
+				<a href="https://www.linkedin.com/company/bordeaux-institute-of-international-cybersecurity-studies" class="fa fa-linkedin"></a>
+				<a href="https://www.instagram.com/biics.cyber/" class="fa fa-instagram"></a>
+			 </ul>
+
+		<footer>
+			 <ul>
+			 	<a href="Contact">Contact</a>
+			 </ul>
+		</footer>
 
 
 </html>
