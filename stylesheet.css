@@ -500,6 +500,9 @@
        padding-bottom: 40px;
     }
 
+
+    
+
 /* Mobile map */
 
     .map {
@@ -581,106 +584,6 @@ footer {
   background-color: #213E7A;
 }
 /* Re-sizing - larger screen */
-
-
-
-
-@media only screen and (min-width: 430px){
-
-/* Speakers */
-
-      .flip-box {
-      background-color: white;
-      width: 400px;
-      height: 400px;
-      perspective: 1000px;
-      margin-left: auto;
-      margin-right: auto;
-      border-top: 10px solid white;
-      border-right: 10px solid white;
-      border-left: 10px solid white;
-    }
-
-    .flip-box-inner {
-      position: relative;
-      width: 100%;
-      height: 100%;
-      text-align: center;
-      transition: transform 0.6s;
-      transform-style: preserve-3d;
-    }
-
-    .flip-box:hover .flip-box-inner {
-      transform: rotateY(180deg);
-    }
-
-    .flip-box-front, .flip-box-back {
-      position: absolute;
-      width: 100%;
-      height: 100%;
-      backface-visibility: hidden;
-    }
-
-    .flip-box-front {
-      background-color: white;
-    }
-
-    .flip-box-front img {
-          width: 100%;
-          border: 0;
-          padding: 0;
-          margin: 0;
-    }
-
-    .flip-box-back p {
-      font-size: 1.1em;
-      padding: 15px;
-      text-align: justify;
-    }
-
-    .flip-box-back .small {
-      font-size: 1em;
-      text-align: justify;
-    }
-
-    .flip-box-back h4 {
-      padding-top: 10px;
-      padding-left: 10px;
-      padding-right: 10px;
-      padding-bottom: 5px;
-      text-align: center;
-    }
-
-    .flip-box-back {
-      background-color: white;
-      text-align: left;
-      color: white;
-      transform: rotateY(180deg);
-    }
-
-    h5 {
-      font-size: 1em;
-      color: #213E7A;
-      padding-bottom: 5px;
-      text-align: center;
-    }
-
-    .turquoise-background {
-      background-color: #16BCFA;
-    }
-
-    .break {
-      position: static;
-      display: block;
-    }
-
-    .grid {
-       grid-template: repeat(6, 1fr)/ repeat(1, 1fr);
-       display: grid;
-       position: relative;
-       padding-bottom: 40px;
-    }
-}
 
 @media only screen and (min-width: 500px) {
   .address p {
@@ -859,7 +762,7 @@ footer {
     .address p {
   padding: 10%;
   text-align: center;
-  font-size: 1.2em;
+  font-size: 1.1em;
 }
   }
 
@@ -1005,8 +908,6 @@ footer {
     }
 
   }
-
-}
 
   @media only screen and (min-width: 950px) {
 
