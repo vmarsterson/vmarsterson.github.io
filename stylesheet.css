@@ -654,11 +654,12 @@
 
     .teamtext2 {
       font-size: 1em;
+      padding-left: 5%;
     }
   }
 
 
-  @media only screen and (min-width: 850px) {
+  @media only screen and (min-width: 950px) {
 
       /* Speakers */
 
@@ -817,7 +818,7 @@
     }
 
      p {
-      font-size: 1.75em;
+      font-size: 1.5em;
       padding-left: 7%;
       padding-right: 7%;
       line-height: 1.5em;
@@ -892,11 +893,11 @@
 
     @media only screen and (min-width: 1400px) {
     .teamtext {
-      font-size: 1.8em;
+      font-size: 1.5em;
     }
 
     .teamtext2 {
-      font-size: 1.8em;
+      font-size: 1.5em;
     }
 
     }
