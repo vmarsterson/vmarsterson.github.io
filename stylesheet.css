@@ -427,7 +427,7 @@
 /* Icons */
 
 .socialmedia {
-  width: 500px;
+  width: 300px;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -581,6 +581,13 @@ footer {
   font-size: 0.9em;
 }
 
+.socialmedia {
+  width: 615px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  }
+
 }
 
  @media only screen and (min-width: 620px) {
@@ -619,6 +626,14 @@ footer {
       border: 0;
       padding-top: 0px;
       }
+
+      .socialmedia {
+
+  width: 620px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  }
 }
 
 
@@ -658,6 +673,10 @@ footer {
       padding-right: 0.5em;
     }
 
+    .socialmedia {
+  width: 720px;
+  }
+
   }
 
 @media only screen and (min-width:; 750px) {
@@ -671,7 +690,11 @@ footer {
     text-align: center;
   }
 
+      .socialmedia {
+  width: 750px;
 }
+}
+
   @media only screen and (min-width: 780px) {
 
 /* The team */
@@ -707,13 +730,14 @@ footer {
   text-align: center;
   font-size: 1.1em;
 }
+
+    .socialmedia {
+  width: 780px;
   }
 
+}
 
-
-
-@media only screen and (min-width: 918px)
-  {
+@media only screen and (min-width: 918px) {
 
  /** Navbar **/
     
@@ -854,6 +878,10 @@ footer {
       line-height: 1.5em;
     }
 
+        .socialmedia {
+  width: 918px;
+}
+
   }
 
   @media only screen and (min-width: 950px) {
@@ -865,8 +893,12 @@ footer {
   text-align: center;
   font-size: 1.3em;
 }
+
+    .socialmedia {
+  width: 950px;
   }
   
+}
 
  @media only screen and (min-width: 970px) /*** CHANGE THIS WIDTH IF TITLES OF TABS ARE CHANGED TO FIT THE WIDTH OF WRITING**/
   {
@@ -899,7 +931,11 @@ footer {
       border: 0;
       font-size: 1.25em;
     }
+
+        .socialmedia {
+  width: 970px;
     }
+  }
 
     @media only screen and (min-width: 1081px) {
     .teamtext {
@@ -918,6 +954,12 @@ footer {
   font-size: 1.5em;
 }
 
+    .socialmedia {
+  width: 1081px;
+  }
+
+}
+
     @media only screen and (min-width: 1180px) {
     .teamtext {
       font-size: 1.6em;
@@ -934,7 +976,12 @@ footer {
   text-align: center;
   font-size: 1.6em;
 }
+
+.socialmedia {
+  width: 1180px;
   }
+
+}
 
 @media only screen and (min-width: 1247px)
   {
@@ -945,7 +992,12 @@ footer {
   text-align: center;
   font-size: 1.7em;
 }
+
+.socialmedia {
+  width: 1247px;
   }
+
+}
 
 
   @media only screen and (min-width: 1350px) {
@@ -955,6 +1007,10 @@ footer {
   text-align: center;
   font-size: 1.9em;
 }
+
+.socialmedia {
+  width: 1350px;
+  }
 }
   
     @media only screen and (min-width: 1400px) {
@@ -973,5 +1029,9 @@ footer {
   text-align: center;
   font-size: 2em;
 }
+
+.socialmedia {
+  width: 1400px;
+  }
 
     }
