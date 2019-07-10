@@ -586,6 +586,12 @@
       }
 
 }
+
+
+@media only screen and (min-width: 650px){
+
+}
+
   @media only screen and (min-width: 720px) {
  
  /* Agenda */
@@ -649,7 +655,32 @@
     .teamtext2 {
       font-size: 1em;
     }
-      }
+  }
+
+
+  @media only screen and (min-width: 850px) {
+
+      /* Speakers */
+
+    .mspeaker {
+      display: none;
+    }
+
+    .dspeaker {
+      display: block;
+    }
+
+    .grid {
+       width: 100%;
+       grid-template: repeat(6, 1fr)/ repeat(2, 1fr);
+       display: grid;
+       position: relative;
+    }
+
+    .flip-box {
+      padding-top: 40px;
+    }
+  }
 
   @media only screen and (min-width: 918px) /*** CHANGE THIS WIDTH IF TITLES OF TABS ARE CHANGED TO FIT THE WIDTH OF WRITING**/
   {
@@ -790,23 +821,6 @@
       padding-left: 7%;
       padding-right: 7%;
       line-height: 1.5em;
-    }
-
-/* Speakers */
-
-    .mspeaker {
-      display: none;
-    }
-
-    .dspeaker {
-      display: block;
-    }
-
-    .grid {
-       width: 100%;
-       grid-template: repeat(6, 1fr)/ repeat(2, 1fr);
-       display: grid;
-       position: relative;
     }
 
   }
