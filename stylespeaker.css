@@ -15,6 +15,7 @@
     .mspeaker {
       display: block;
       width: 100%;
+      text-overflow: wrap;
     }
 
     .dspeaker {
@@ -61,6 +62,13 @@
           margin: 0;
     }
 
+        .flip-box-back {
+      background-color: white;
+      text-align: left;
+      color: white;
+      transform: rotateY(180deg);
+    }
+
     .flip-box-back p {
       font-size: 0.75em;
       text-align: justify;
@@ -72,18 +80,11 @@
       text-align: justify;
     }
 
-    .flip-box-back h4 {
+      .flip-box-back h4 {
       text-align: center;
       padding-top: 10px;
       padding-left: 10px;
       padding-right: 10px;
-    }
-
-    .flip-box-back {
-      background-color: white;
-      text-align: left;
-      color: white;
-      transform: rotateY(180deg);
     }
 
     h5 {
@@ -105,18 +106,32 @@
     }
 
     .flip-box {
-      background-color: white;
       width: 250px;
       height: 250px;
       }
 
      .flip-box-back p {
-      font-size: 0.65em;
+      font-size: 0.6em;
       padding: 10px;
+      line-height: 1.6em;
     }
 
     .flip-box-back .small {
-      font-size: 0.6em;
+      font-size: 0.55em;
+      line-height: 1.6em;
+    }
+
+      .flip-box-back h4 {
+      font-size: 1em;
+      padding-top: 10px;
+      padding-bottom: 0px;
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+
+    h5 {
+      font-size: 0.75em;
+      padding: 5px;
     }
   }
 
@@ -131,7 +146,6 @@
        width: 600px; }
 
        .flip-box {
-      background-color: white;
       width: 300px;
       height: 300px;
     }
