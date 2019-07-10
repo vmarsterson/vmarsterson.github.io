@@ -426,10 +426,16 @@
 
 /* Icons */
 
-.fa {
+.socialmedia {
+  width: 500px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  }
+
+  .fa {
   margin: 2%;
-  width: 1fr;
-  padding: 10%;
+  padding: 5%;
   text-align: center;
   text-decoration: none;
   border-radius: 50%;
