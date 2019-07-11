@@ -77,7 +77,7 @@
       -o-transform: rotateY(180deg);
       transform: rotateY(180deg);
       -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
+      backface-visibility: hidden;
     }
 
     .flip-box-back p {
@@ -185,5 +185,63 @@
        grid-template: repeat(6, 1fr)/ repeat(4, 1fr);
        display: grid;
        width: 1200px;
+       }
+
+       .flip-box {
+      width: 400px;
+      height: 400px;
+      }
+
+       .flip-box-back p {
+      font-size: 1.1em;
+      padding: 10px;
+      line-height: 1.6em;
+    }
+
+    .flip-box-back .small {
+      font-size: 1em;
+      line-height: 1.6em;
+    }
+
+      .flip-box-back h4 {
+      font-size: 1.2 em;
+      padding-top: 10px;
+      padding-bottom: 0px;
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+
+    h5 {
+      font-size: 0.9em;
+      padding: 5px;
+    
+}
+
+@media only screen and (min-width: 1600px) {
+        /* Speakers */
+    .grid {
+       grid-template: repeat(5, 1fr)/ repeat(5, 1fr);
+       display: grid;
+       width: 1600px;
     }
 }
+
+@media only screen and (min-width: 2000px) {
+        /* Speakers */
+    .grid {
+       grid-template: repeat(4, 1fr)/ repeat(6, 1fr);
+       display: grid;
+       width: 2000px;
+    }
+}
+
+@media only screen and (min-width: 2400px) {
+        /* Speakers */
+    .grid {
+       grid-template: repeat(4, 1fr)/ repeat(7, 1fr);
+       display: grid;
+       width: 2400px;
+    }
+}
+
+
