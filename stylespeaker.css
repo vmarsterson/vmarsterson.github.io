@@ -185,6 +185,15 @@
        grid-template: repeat(6, 1fr)/ repeat(4, 1fr);
        display: grid;
        width: 1200px;
+    }
+}
+
+@media only screen and (min-width: 1600px) {
+  /* Speakers */
+    .grid {
+       grid-template: repeat(6, 1fr)/ repeat(4, 1fr);
+       display: grid;
+       width: 1600px;
        }
 
        .flip-box {
@@ -214,22 +223,13 @@
     h5 {
       font-size: 0.9em;
       padding: 5px;
-    
-}
-
-@media only screen and (min-width: 1600px) {
-        /* Speakers */
-    .grid {
-       grid-template: repeat(5, 1fr)/ repeat(5, 1fr);
-       display: grid;
-       width: 1600px;
     }
-}
+  }
 
 @media only screen and (min-width: 2000px) {
         /* Speakers */
     .grid {
-       grid-template: repeat(4, 1fr)/ repeat(6, 1fr);
+       grid-template: repeat(5, 1fr)/ repeat(5, 1fr);
        display: grid;
        width: 2000px;
     }
@@ -238,9 +238,18 @@
 @media only screen and (min-width: 2400px) {
         /* Speakers */
     .grid {
-       grid-template: repeat(4, 1fr)/ repeat(7, 1fr);
+       grid-template: repeat(4, 1fr)/ repeat(6, 1fr);
        display: grid;
        width: 2400px;
+    }
+}
+
+@media only screen and (min-width: 2800px) {
+        /* Speakers */
+    .grid {
+       grid-template: repeat(4, 1fr)/ repeat(7, 1fr);
+       display: grid;
+       width: 2800px;
     }
 }
 
