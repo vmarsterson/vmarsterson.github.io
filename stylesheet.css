@@ -487,6 +487,21 @@
 footer {
   width: 100%;
   background-color: #213E7A;
+  height: 75px;
+}
+
+footer a {
+  color: white;
+  font: aileron;
+  font-size: 1em;
+}
+footer p {
+  font: Aileron;
+  opacity: 2;
+  float: right;
+  color: white;
+
+
 }
 /* Re-sizing - larger screen */
 
