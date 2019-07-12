@@ -551,7 +551,7 @@ footer {
 .title {
   color: white;
   font: aileron;
-  font-size: 25px;
+  font-size: 13px;
   padding-left: 5%;
   padding-right: 5%;
   width: 90%;
@@ -560,7 +560,7 @@ footer {
 
 footer p {
   font: Aileron;
-  font-size: 18px;
+  font-size: 8px;
   opacity: 0.2;
   float: right;
   color: white;
@@ -572,7 +572,7 @@ footer p {
 
 footer a {
   font: Aileron;
-  font-size: 18px;
+  font-size: 8px;
   opacity: 0.2;
   float: right;
   color: white;
@@ -621,6 +621,30 @@ height: 150px;
       text-align: center;
       font-size: 0.9em;
     }
+
+    /* Footer */
+
+  .title {
+  font-size: 15px;
+  padding-left: 5%;
+  padding-right: 5%;
+  width: 90%;
+  padding-top: 15px;
+}
+
+footer p {
+  font-size: 10px;
+  padding-left: 5%;
+  padding-right: 5%;
+  width: 90%;
+}
+
+footer a {
+  font-size: 10px;
+  padding-left: 5%;
+  padding-right: 5%;
+  width: 90%;
+}
   }
 
   @media only screen and (min-width: 500px) {
@@ -670,6 +694,32 @@ height: 150px;
        display: grid;
        position: relative;
        padding-bottom: 40px;
+}
+
+@media only screen and (min-width: 570px) {
+  /* Footer */
+
+  .title {
+  font-size: 17px;
+  padding-left: 5%;
+  padding-right: 5%;
+  width: 90%;
+  padding-top: 15px;
+}
+
+footer p {
+  font-size: 13px;
+  padding-left: 5%;
+  padding-right: 5%;
+  width: 90%;
+}
+
+footer a {
+  font-size: 13px;
+  padding-left: 5%;
+  padding-right: 5%;
+  width: 90%;
+}
 }
 @media only screen and (min-width: 615px){
 
@@ -859,6 +909,30 @@ height: 150px;
   text-align: center;
   font-size: 1.1em;
   }
+
+  /* Footer */
+
+  .title {
+  font-size: 20px;
+  padding-left: 5%;
+  padding-right: 5%;
+  width: 90%;
+  padding-top: 15px;
+}
+
+footer p {
+  font-size: 15px;
+  padding-left: 5%;
+  padding-right: 5%;
+  width: 90%;
+}
+
+footer a {
+  font-size: 15px;
+  padding-left: 5%;
+  padding-right: 5%;
+  width: 90%;
+}
 
 }
 
