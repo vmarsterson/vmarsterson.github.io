@@ -440,7 +440,6 @@
 /* Social Media */
 
 .social {
-display: block;
 text-align: center;
 margin-left: auto;
 margin-right: auto;
@@ -448,11 +447,24 @@ padding-top: 20px;
 }
 /* Icons */
 
-.socialmedia {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+.sociala {
+  width: 33.333%;
+  float: left;
+  padding: 0;
   }
+
+.socialb {
+  width: 33.333%;
+  padding: 0;
+  }
+
+  .socialc {
+  display: block;
+  width: 33.333%;
+  float: right;
+  padding: 0;
+  }
+
 
   .fa {
   margin-left: 0.5%;
@@ -507,6 +519,8 @@ padding-top: 20px;
   margin-left: auto;
   margin-right: auto;
   display: block;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 /* Mobile footer */
 
@@ -564,7 +578,7 @@ display: inline-block;
 width: 33.333%;
 height: 150px;
 text-align: center;
-  text-align: center;
+text-align: center;
 }
 
 .footsectionb {

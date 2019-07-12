@@ -108,6 +108,10 @@
     .turquoise-background {
       background-color: #16BCFA;
     }
+
+    .orange-background {
+      background-color: #FE8548;
+    }
   }
 
 @media only screen and (min-width: 320px){
