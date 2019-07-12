@@ -858,8 +858,7 @@ height: 150px;
   padding: 10%;
   text-align: center;
   font-size: 1.1em;
-}
-
+  }
 
 }
 
@@ -876,7 +875,7 @@ height: 150px;
 
 .mpartners {
   display: none;
-}
+  }
 }
 
 @media only screen and (min-width: 918px) {
