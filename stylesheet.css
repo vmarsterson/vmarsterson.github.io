@@ -439,22 +439,32 @@
 
 /* Social Media */
 
+.social {
+display: block;
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+padding-top: 20px;
+}
 /* Icons */
 
 .socialmedia {
-  width: 300px;
   display: block;
   margin-left: auto;
   margin-right: auto;
   }
 
   .fa {
-  margin: 2%;
-  padding: 5%;
+  margin-left: 0.5%;
+  margin-right: 0.5%;
+  margin-top:50px;
+  margin-bottom:50px;
+  padding: 4%;
   text-align: center;
   text-decoration: none;
-  border-radius: 50%;
+  border-radius: 100%;
   align-content: center;
+  display: inline-block;
 }
 
 /* Hover */
@@ -678,13 +688,6 @@ height: 150px;
   font-size: 0.9em;
 }
 
-.socialmedia {
-  width: 615px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  }
-
     .sciencespo1 {
       display: none;
     }
@@ -733,14 +736,6 @@ height: 150px;
       border: 0;
       padding-top: 0px;
       }
-
-      .socialmedia {
-
-  width: 620px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  }
 }
 
 
@@ -779,10 +774,6 @@ height: 150px;
       padding-left: 0.5em;
       padding-right: 0.5em;
     }
-
-    .socialmedia {
-  width: 720px;
-  }
 
   }
 
@@ -838,9 +829,6 @@ height: 150px;
   font-size: 1.1em;
 }
 
-    .socialmedia {
-  width: 780px;
-  }
 
 }
 
@@ -891,11 +879,13 @@ height: 150px;
     }
 
     .dropdowncontent {
+      position: relative;
       display: inline;
-      position: fixed;
       background-color: transparent;
-      z-index: 1;
+      z-index: 3;
       padding-left: 70px;
+      height: 60px;
+      top: 20px;
     }
 
     .dropdowncontent a {
@@ -986,10 +976,6 @@ height: 150px;
       line-height: 1.5em;
     }
 
-        .socialmedia {
-  width: 918px;
-}
-
   }
 
   @media only screen and (min-width: 950px) {
@@ -1002,13 +988,10 @@ height: 150px;
   font-size: 1.3em;
 }
 
-    .socialmedia {
-  width: 950px;
-  }
   
 }
 
- @media only screen and (min-width: 970px) /*** CHANGE THIS WIDTH IF TITLES OF TABS ARE CHANGED TO FIT THE WIDTH OF WRITING**/
+ @media only screen and (min-width: 970px)
   {
 
 /* Our Team */
@@ -1040,9 +1023,6 @@ height: 150px;
       font-size: 1.25em;
     }
 
-        .socialmedia {
-  width: 970px;
-    }
   }
 
     @media only screen and (min-width: 1081px) {
@@ -1061,10 +1041,6 @@ height: 150px;
   text-align: center;
   font-size: 1.5em;
 }
-
-    .socialmedia {
-  width: 1081px;
-  }
 
 }
 
@@ -1085,9 +1061,6 @@ height: 150px;
   font-size: 1.6em;
 }
 
-.socialmedia {
-  width: 1180px;
-  }
 
 }
 
@@ -1101,10 +1074,6 @@ height: 150px;
   font-size: 1.7em;
 }
 
-.socialmedia {
-  width: 1247px;
-  }
-
 }
 
 
@@ -1116,9 +1085,6 @@ height: 150px;
   font-size: 1.9em;
 }
 
-.socialmedia {
-  width: 1350px;
-  }
 }
   
     @media only screen and (min-width: 1400px) {
@@ -1137,9 +1103,5 @@ height: 150px;
   text-align: center;
   font-size: 2em;
 }
-
-.socialmedia {
-  width: 1400px;
-  }
 
     }
