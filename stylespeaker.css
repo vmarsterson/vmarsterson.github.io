@@ -3,7 +3,7 @@
 /* Mobile Speakers 300px */
 
     .grid {
-       grid-template: repeat(6, 1fr)/ repeat(1, 1fr);
+       grid-template: repeat(28, 1fr)/ repeat(1, 1fr);
        display: grid;
        position: block;
        width: 300px;
@@ -108,6 +108,84 @@
     .turquoise-background {
       background-color: #16BCFA;
     }
+  }
+
+@media only screen and (min-width: 320px){
+        
+        /* Speakers */
+
+    .grid {
+       grid-template: repeat(28, 1fr)/ repeat(1, 1fr);
+       display: grid;
+       width: 320px; }
+
+       .flip-box {
+      width: 320px;
+      height: 320px;
+    }
+
+         .flip-box-back p {
+      font-size: 0.8em;
+      padding: 10px;
+    }
+
+    .flip-box-back .small {
+      font-size: 0.75em;
+    }
+}
+
+@media only screen and (min-width: 360px){
+        
+        /* Speakers */
+
+    .grid {
+       grid-template: repeat(28, 1fr)/ repeat(1, 1fr);
+       display: grid;
+       width: 360px; }
+
+       .flip-box {
+      width: 360px;
+      height: 360px;
+    }
+
+         .flip-box-back p {
+      font-size: 1em;
+      padding: 10px;
+    }
+
+    .flip-box-back .small {
+      font-size: 0.9em;
+    }
+}
+
+@media only screen and (min-width: 375px){
+        
+        /* Speakers */
+
+    .grid {
+       grid-template: repeat(28, 1fr)/ repeat(1, 1fr);
+       display: grid;
+       width: 375px; }
+
+       .flip-box {
+      width: 375px;
+      height: 375px;
+    }
+}
+
+ @media only screen and (min-width: 411px){
+
+      .grid {
+       grid-template: repeat(28, 1fr)/ repeat(1, 1fr);
+       display: grid;
+       width: 411px; }
+
+       .flip-box {
+      width: 411px;
+      height: 411px;
+    }
+  }
+
  @media only screen and (min-width: 414px){
     .grid {
        grid-template: repeat(6, 1fr)/ repeat(1, 1fr);
@@ -180,12 +258,48 @@
       font-size: 0.7em;
     }
 }
+
+    @media only screen and (min-width: 768px){
+.grid {
+       grid-template: repeat(6, 1fr)/ repeat(2, 1fr);
+       display: grid;
+       width: 768px; }
+
+       .flip-box {
+      width: 384px;
+      height: 384px;
+    }
+
+         .flip-box-back p {
+      font-size: 1em;
+      padding: 10px;
+    }
+
+    .flip-box-back .small {
+      font-size: 0.9em;
+    }
+}
+
 @media only screen and (min-width: 900px) {
         /* Speakers */
     .grid {
        grid-template: repeat(6, 1fr)/ repeat(3, 1fr);
        display: grid;
        width: 900px;
+    }
+
+           .flip-box {
+      width: 300px;
+      height: 300px;
+    }
+
+             .flip-box-back p {
+      font-size: 0.75em;
+      padding: 10px;
+    }
+
+    .flip-box-back .small {
+      font-size: 0.7em;
     }
 }
 

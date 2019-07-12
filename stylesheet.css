@@ -27,6 +27,7 @@
     url("vmarsterson.github.io/Fonts/aileron-regular-fontface.woff2");
 }
 
+
 /* 213E7A = Dark blue
    FE8548 = Orange - #ffddcc 90% 
    16BCFA = Turquoise - #b4eafd
@@ -69,6 +70,7 @@
       width: 100%;
       margin-top:0px;
       margin-bottom: 0px;
+      overflow: hidden;
     }
 
     .orangegrad {
@@ -80,6 +82,7 @@
       margin-top: 0px;
       padding: 0;
       margin-bottom: 0px;
+      overflow: hidden;
     }
 
     .orangetext {
@@ -162,7 +165,7 @@
     }
 
 
-/* Mobile Nav bar */ 
+/* Mobile Navbar */ 
 
     .navbar {
       background-color: #213E7A;
@@ -257,7 +260,7 @@
     .click {
       clear: both;
       background-color: #FE8548;
-      font-family: Aileron;
+      font-family: aileronregular, Sans-Serif;
       padding-top: 20px;
       padding-bottom: 20px;
       text-align: center;
@@ -487,13 +490,21 @@
   background-color: #FE8548;
 }
 
+/* Mobile partners */
 
+.partners {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
 /* Mobile footer */
 
 footer {
   width: 100%;
   background-color: #213E7A;
   height: 150px;
+  overflow: hidden;
 }
 
 .title {
@@ -871,7 +882,8 @@ height: 150px;
         text-decoration: none;
         font-family: Aileronblack;
         margin: 0;
-        padding-top: 5px;
+        padding-top: 20px;
+        padding-bottom: 20px;
     }
 
     .dropdown:hover {
