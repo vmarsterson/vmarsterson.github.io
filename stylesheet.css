@@ -1012,6 +1012,7 @@ footer a {
       float: center;
       overflow: hidden;
       display: inline;
+      height: 60px;
     }
 
     .dropdown .dropbtn {
