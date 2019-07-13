@@ -175,6 +175,11 @@
       width: 375px;
       height: 375px;
     }
+
+             .flip-box-back p {
+      font-size: 1em;
+      padding: 14px;
+    }
 }
 
  @media only screen and (min-width: 411px){
