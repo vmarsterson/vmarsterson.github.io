@@ -400,7 +400,7 @@
 /* Workshops */
 
 .workshops {
-       grid-template: repeat(2, 1fr)/ repeat(4, 1fr);
+       grid-template: repeat(3, 1fr)/ repeat(3, 1fr);
        display: grid;
        position: relative;
        padding-bottom: 40px;
@@ -411,6 +411,10 @@
   width: 100%;
   display: block;
   padding: 0;
+}
+
+.extra {
+  display: inline;
 }
 
 /* Mobile map */
@@ -679,6 +683,29 @@ footer a {
   width: 90%;
 }
   }
+
+  @media only screen and (min-width: 400px) {
+    /* Workshops */
+
+.workshops {
+       grid-template: repeat(2, 1fr)/ repeat(4, 1fr);
+       display: grid;
+       position: relative;
+       padding-bottom: 40px;
+       padding: 0;
+}
+
+.workshop {
+  width: 100%;
+  display: block;
+  padding: 0;
+}
+
+.extra {
+  display: hidden;
+}
+    }
+
 
   @media only screen and (min-width: 500px) {
   .address p {
