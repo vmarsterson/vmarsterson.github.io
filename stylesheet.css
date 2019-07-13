@@ -509,11 +509,20 @@ padding-top: 20px;
   color: white;
   padding-top: 2%;
   padding-bottom: 2%;
-  padding-left: 2.3
-  %;
-  padding-right: 2.3%;
+  padding-left: 3%;
+  padding-right: 3%;
 }
 
+@media only screen and (min-width: 718px) {
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-left: 2.4%;
+  padding-right: 2.4%;
+}
+}
 /* Twitter */
 .fa-twitter {
   background: #55ACEE;
