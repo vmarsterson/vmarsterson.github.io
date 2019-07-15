@@ -3,13 +3,13 @@
 /* Mobile Speakers 300px */
 
     .grid {
-       grid-template: repeat(28, 1fr)/ repeat(1, 1fr);
-       display: grid;
-       position: block;
-       width: 300px;
-       margin-left: auto;
-       margin-right: auto;
-       padding: 0;
+      grid-template: repeat(28, 1fr)/ repeat(1, 1fr);
+      display: grid;
+      position: block;
+      width: 300px;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 0;
     }
 
     .mspeaker {
@@ -67,7 +67,7 @@
           margin: 0;
     }
 
-        .flip-box-back {
+    .flip-box-back {
       background-color: white;
       text-align: left;
       color: white;
@@ -91,7 +91,7 @@
       text-align: justify;
     }
 
-      .flip-box-back h4 {
+    .flip-box-back h4 {
       text-align: center;
       padding-top: 10px;
       padding-left: 10px;
@@ -112,23 +112,23 @@
     .orange-background {
       background-color: #FE8548;
     }
-  }
 
-@media only screen and (min-width: 320px){
+  @media only screen and (min-width: 320px){
         
-        /* Speakers */
+/* Speakers */
 
     .grid {
-       grid-template: repeat(28, 1fr)/ repeat(1, 1fr);
-       display: grid;
-       width: 320px; }
+     grid-template: repeat(28, 1fr)/ repeat(1, 1fr);
+     display: grid;
+     width: 320px;
+   }
 
-       .flip-box {
+    .flip-box {
       width: 320px;
       height: 320px;
     }
 
-         .flip-box-back p {
+    .flip-box-back p {
       font-size: 0.8em;
       padding: 10px;
     }
@@ -136,23 +136,24 @@
     .flip-box-back .small {
       font-size: 0.75em;
     }
-}
+  }
 
-@media only screen and (min-width: 360px){
+  @media only screen and (min-width: 360px){
         
-        /* Speakers */
+/* Speakers */
 
     .grid {
        grid-template: repeat(28, 1fr)/ repeat(1, 1fr);
        display: grid;
-       width: 360px; }
+       width: 360px;
+     }
 
-       .flip-box {
+    .flip-box {
       width: 360px;
       height: 360px;
     }
 
-         .flip-box-back p {
+    .flip-box-back p {
       font-size: 1em;
       padding: 10px;
     }
@@ -160,54 +161,56 @@
     .flip-box-back .small {
       font-size: 0.9em;
     }
-}
+  }
 
-@media only screen and (min-width: 375px){
+  @media only screen and (min-width: 375px){
         
-        /* Speakers */
+/* Speakers */
 
     .grid {
-       grid-template: repeat(28, 1fr)/ repeat(1, 1fr);
-       display: grid;
-       width: 375px; }
+     grid-template: repeat(28, 1fr)/ repeat(1, 1fr);
+     display: grid;
+     width: 375px;
+   }
 
-       .flip-box {
+    .flip-box {
       width: 375px;
       height: 375px;
     }
 
-             .flip-box-back p {
+    .flip-box-back p {
       font-size: 1em;
       padding: 14px;
     }
-}
+  }
 
- @media only screen and (min-width: 411px){
+  @media only screen and (min-width: 411px){
 
-      .grid {
-       grid-template: repeat(28, 1fr)/ repeat(1, 1fr);
-       display: grid;
-       width: 411px; }
+    .grid {
+     grid-template: repeat(28, 1fr)/ repeat(1, 1fr);
+     display: grid;
+     width: 411px;
+   }
 
-       .flip-box {
+    .flip-box {
       width: 411px;
       height: 411px;
     }
   }
 
- @media only screen and (min-width: 414px){
+  @media only screen and (min-width: 414px){
     .grid {
-       grid-template: repeat(6, 1fr)/ repeat(1, 1fr);
-       display: grid;
-       position: block;
-       width: 414px;
-       margin-left: auto;
-       margin-right: auto;
-       padding: 0;
-    }
-}
+     grid-template: repeat(6, 1fr)/ repeat(1, 1fr);
+     display: grid;
+     position: block;
+     width: 414px;
+     margin-left: auto;
+     margin-right: auto;
+     padding: 0;
+   }
+  }
 
-    @media only screen and (min-width: 500px){
+  @media only screen and (min-width: 500px){
     .grid {
        grid-template: repeat(6, 1fr)/ repeat(2, 1fr);
        width: 500px;
@@ -216,9 +219,9 @@
     .flip-box {
       width: 250px;
       height: 250px;
-      }
+    }
 
-     .flip-box-back p {
+    .flip-box-back p {
       font-size: 0.6em;
       padding: 10px;
       line-height: 1.6em;
@@ -229,7 +232,7 @@
       line-height: 1.6em;
     }
 
-      .flip-box-back h4 {
+    .flip-box-back h4 {
       font-size: 1em;
       padding-top: 10px;
       padding-bottom: 0px;
@@ -243,22 +246,22 @@
     }
   }
 
-
-    @media only screen and (min-width: 600px){
+  @media only screen and (min-width: 600px){
         
-        /* Speakers */
+/* Speakers */
 
     .grid {
-       grid-template: repeat(6, 1fr)/ repeat(2, 1fr);
-       display: grid;
-       width: 600px; }
+      grid-template: repeat(6, 1fr)/ repeat(2, 1fr);
+      display: grid;
+      width: 600px;
+   }
 
-       .flip-box {
+    .flip-box {
       width: 300px;
       height: 300px;
     }
 
-         .flip-box-back p {
+    .flip-box-back p {
       font-size: 0.75em;
       padding: 10px;
     }
@@ -266,20 +269,21 @@
     .flip-box-back .small {
       font-size: 0.7em;
     }
-}
+  }
 
-    @media only screen and (min-width: 768px){
-.grid {
-       grid-template: repeat(6, 1fr)/ repeat(2, 1fr);
-       display: grid;
-       width: 768px; }
+  @media only screen and (min-width: 768px){
+    .grid {
+      grid-template: repeat(6, 1fr)/ repeat(2, 1fr);
+      display: grid;
+      width: 768px;
+   }
 
-       .flip-box {
+    .flip-box {
       width: 384px;
       height: 384px;
     }
 
-         .flip-box-back p {
+    .flip-box-back p {
       font-size: 1em;
       padding: 10px;
     }
@@ -287,22 +291,24 @@
     .flip-box-back .small {
       font-size: 0.9em;
     }
-}
+  }
 
-@media only screen and (min-width: 900px) {
-        /* Speakers */
+  @media only screen and (min-width: 900px) {
+
+/* Speakers */
+    
     .grid {
-       grid-template: repeat(6, 1fr)/ repeat(3, 1fr);
-       display: grid;
-       width: 900px;
+      grid-template: repeat(6, 1fr)/ repeat(3, 1fr);
+      display: grid;
+      width: 900px;
     }
 
-           .flip-box {
+    .flip-box {
       width: 300px;
       height: 300px;
     }
 
-             .flip-box-back p {
+    .flip-box-back p {
       font-size: 0.75em;
       padding: 10px;
     }
@@ -310,31 +316,35 @@
     .flip-box-back .small {
       font-size: 0.7em;
     }
-}
+  }
 
-@media only screen and (min-width: 1200px) {
-        /* Speakers */
+  @media only screen and (min-width: 1200px) {
+        
+/* Speakers */
+    
     .grid {
        grid-template: repeat(6, 1fr)/ repeat(4, 1fr);
        display: grid;
        width: 1200px;
     }
-}
+  }
 
-@media only screen and (min-width: 1600px) {
-  /* Speakers */
+  @media only screen and (min-width: 1600px) {
+  
+/* Speakers */
+    
     .grid {
-       grid-template: repeat(6, 1fr)/ repeat(4, 1fr);
-       display: grid;
-       width: 1600px;
-       }
+      grid-template: repeat(6, 1fr)/ repeat(4, 1fr);
+      display: grid;
+      width: 1600px;
+    }
 
-       .flip-box {
+    .flip-box {
       width: 400px;
       height: 400px;
-      }
+    }
 
-       .flip-box-back p {
+    .flip-box-back p {
       font-size: 1.1em;
       padding: 10px;
       line-height: 1.6em;
@@ -345,7 +355,7 @@
       line-height: 1.6em;
     }
 
-      .flip-box-back h4 {
+    .flip-box-back h4 {
       font-size: 1.2 em;
       padding-top: 10px;
       padding-bottom: 0px;
@@ -359,31 +369,35 @@
     }
   }
 
-@media only screen and (min-width: 2000px) {
-        /* Speakers */
+  @media only screen and (min-width: 2000px) {
+        
+/* Speakers */
+    
     .grid {
-       grid-template: repeat(5, 1fr)/ repeat(5, 1fr);
-       display: grid;
-       width: 2000px;
+      grid-template: repeat(5, 1fr)/ repeat(5, 1fr);
+      display: grid;
+      width: 2000px;
     }
-}
+  }
 
-@media only screen and (min-width: 2400px) {
-        /* Speakers */
+  @media only screen and (min-width: 2400px) {
+        
+/* Speakers */
+    
     .grid {
-       grid-template: repeat(4, 1fr)/ repeat(6, 1fr);
-       display: grid;
-       width: 2400px;
+      grid-template: repeat(4, 1fr)/ repeat(6, 1fr);
+      display: grid;
+      width: 2400px;
     }
-}
+  }
 
-@media only screen and (min-width: 2800px) {
-        /* Speakers */
+  @media only screen and (min-width: 2800px) {
+
+/* Speakers */
+    
     .grid {
-       grid-template: repeat(4, 1fr)/ repeat(7, 1fr);
-       display: grid;
-       width: 2800px;
+      grid-template: repeat(4, 1fr)/ repeat(7, 1fr);
+      display: grid;
+      width: 2800px;
     }
-}
-
-
+  }
