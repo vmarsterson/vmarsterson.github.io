@@ -408,12 +408,24 @@
 
 /* Workshops */
 
-    .workshops {
-     grid-template: repeat(3, 1fr)/ repeat(3, 1fr);
+    .workshops_a {
+     grid-template: repeat(1, 1fr)/ repeat(4, 1fr);
      display: grid;
      position: relative;
      padding-bottom: 40px;
      padding: 0;
+    }
+
+    .workshops_b {
+     grid-template: repeat(1, 1fr)/ repeat(3, 1fr);
+     display: grid;
+     position: relative;
+     padding-bottom: 40px;
+     padding-top: 0;
+     padding-bottom: 0;
+     padding-left: 12%;
+     padding-right: 12%;
+     background-color: black;
     }
 
     .workshop {
