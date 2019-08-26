@@ -3,7 +3,7 @@
 /* Mobile Speakers 300px */
 
     .grid {
-      grid-template: repeat(26, 1fr)/ repeat(1, 1fr);
+      grid-template: repeat(23, 1fr)/ repeat(1, 1fr);
       display: grid;
       position: block;
       width: 300px;
