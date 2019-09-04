@@ -1130,7 +1130,7 @@
     .click {
       clear: both;
       background-color: #FE8548;
-      font-family: Aileron !important;
+      font-family: Aileron;
       padding-top: 30px;
       padding-bottom: 30px;
       text-align: center;
@@ -1140,7 +1140,7 @@
       width: 40%;
     }
 
-    .a {
+    .click a {
       color: white;
       font-size: 2em;
       letter-spacing: 0.5em;
