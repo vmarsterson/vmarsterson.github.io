@@ -268,7 +268,7 @@
     .click {
       clear: both;
       background-color: #FE8548;
-      font-family: aileronregular, Sans-Serif;
+      font-family: aileronregular, Sans-Serif !important;
       padding-top: 20px;
       padding-bottom: 20px;
       text-align: center;
@@ -1132,7 +1132,7 @@
     .click {
       clear: both;
       background-color: #FE8548;
-      font-family: Aileron;
+      font-family: Aileron !important;
       padding-top: 30px;
       padding-bottom: 30px;
       text-align: center;
@@ -1142,11 +1142,12 @@
       width: 40%;
     }
 
-    .click a {
+    .a {
       color: white;
       font-size: 2em;
       letter-spacing: 0.5em;
       text-transform: uppercase;
+      font-family: Aileron;
     }
 
     .click a:hover {
