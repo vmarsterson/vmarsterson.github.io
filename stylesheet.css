@@ -35,8 +35,6 @@
 
    https://www.w3schools.com/colors/colors_picker.asp 
 
-  API key: AIzaSyACBAwAMip35NzaKax_rq95bT5e61U4cvQ 
-
   accent codes: https://www.starr.net/is/type/htmlcodes.html 
 
   */
@@ -268,7 +266,7 @@
     .click {
       clear: both;
       background-color: #FE8548;
-      font-family: aileronregular, Sans-Serif;
+      font-family: aileronregular, Sans-Serif !important;
       padding-top: 20px;
       padding-bottom: 20px;
       text-align: center;
@@ -1147,6 +1145,7 @@
       font-size: 1.5em;
       letter-spacing: 0.25em;
       text-transform: uppercase;
+      font-family: Aileron;
     }
 
     .click a:hover {
