@@ -281,7 +281,7 @@
     .click a {
       color: white;
       font-size: 1em;
-      letter-spacing: 0.75em;
+      letter-spacing: 0.4em;
       text-transform: uppercase;
     }
 
@@ -829,15 +829,15 @@
 /** Button **/
 
     .click {
-      padding-top: 20px;
-      padding-bottom: 20px;
+      padding-top: 15px;
+      padding-bottom: 15px;
       width: 50%;
     }
 
     .click a {
       color: white;
-      font-size: 1.5em;
-      letter-spacing: 0.75em;
+      font-size: 1em;
+      letter-spacing: 0.4em;
       text-transform: uppercase;
     }
 
@@ -1133,8 +1133,8 @@
       clear: both;
       background-color: #FE8548;
       font-family: Aileron;
-      padding-top: 30px;
-      padding-bottom: 30px;
+      padding-top: 20px;
+      padding-bottom: 20px;
       text-align: center;
       display: block;
       margin-left: auto;
@@ -1144,8 +1144,8 @@
 
     .click a {
       color: white;
-      font-size: 2em;
-      letter-spacing: 0.5em;
+      font-size: 1.5em;
+      letter-spacing: 0.25em;
       text-transform: uppercase;
     }
 
